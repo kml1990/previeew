@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/bootstrap";
+@import './constants.scss';
+
+html {
+  font-size: inherit;
+}
+
+body {
+  background-color: $backgroundColor;
+}
+
+button {
+  background: none;
+  border: none;
+  &:focus,
+  &:hover {
+    background: none;
+    border: none;
+    outline: none;
+  }
+}
+
+.form-control {
+  border-radius: 2rem;
+  border: 0.05rem solid rgba(0, 0, 0, 0.05);
+  &:focus {
+    border: 0.05rem solid rgba(0, 0, 0, 0.15);
+    box-shadow: unset;
+  }
+}

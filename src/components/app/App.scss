@@ -1,0 +1,39 @@
+@import '../../constants.scss';
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    &--menuHidden {
+        .App__sidebar {
+            width: 5%;
+            transition: $menuTransition;
+        }
+        .App__content {
+            width: 95%;
+            transition: $menuTransition;
+        }
+    }
+    &--menuExpanded {
+        .App__sidebar {
+            width: 15%;
+            transition: $menuTransition;
+        }
+        .App__content {
+            width: 85%;
+            transition: $menuTransition;
+        }
+    }
+    
+}
+
+.App__sidebar,
+.App__content {
+    padding: $mediumPadding;
+}
+
+.App__sidebar {
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-right: 0;
+}
