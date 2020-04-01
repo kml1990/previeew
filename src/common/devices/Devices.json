@@ -2467,7 +2467,7 @@
         "width": 768,
         "height": 1280,
         "device_width": 768,
-        "px_per_in": 0,
+        "px_per_in": 96,
         "make": "Panasonic",
         "type": "Monitor"
     },
@@ -2491,7 +2491,7 @@
         "width": 768,
         "height": 1366,
         "device_width": 768,
-        "px_per_in": 0,
+        "px_per_in": 96,
         "make": "Panasonic",
         "type": "Monitor"
     },

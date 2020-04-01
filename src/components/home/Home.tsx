@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import dependenciesContainer from '../../common/di/DependencyContainer';
 import DeviceService from '../../common/devices/DeviceService';
-import Device from '../../types/domain/Device';
+import DeviceDomain from '../../types/domain/Device';
+import Device from '../device/Device';
 
 import './Home.scss';
-import DeviceFrame from '../device_frame/DeviceFrame';
 
 const Home: React.FC = () => {
     const deviceService = dependenciesContainer.get(DeviceService);
-    const [devices, setDevices] = useState<Device[]>([]);
+    const [devices, setDevices] = useState<DeviceDomain[]>([]);
 
     useEffect(() => {
         setDevices(deviceService.devices);
@@ -16,9 +16,11 @@ const Home: React.FC = () => {
 
     return (
         <div className="Home">
-            {devices.map((device) => {
-                return <DeviceFrame key={device.name} device={device} />;
-            })}
+            <div className="Devices">
+                {devices.map((device) => {
+                    return <Device key={device.name} device={device} />;
+                })}
+            </div>
         </div>
     );
 };
