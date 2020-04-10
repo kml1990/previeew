@@ -1,51 +1,40 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useInjection } from '../../common/di/DependencyContext';
+import DeviceService from '../../common/devices/DeviceService';
 import DeviceDomain from '../../types/domain/Device';
+import DeviceIframe from './DeviceIframe';
+import { useDeviceSettings } from '../device_settings/SettingsContext';
 
 import './Device.scss';
-import { Orientation } from '../../types/Orientation';
-import DeviceSettings from './DeviceSettings';
 
-export interface DeviceFrameProps {
+export interface DeviceProps {
     device: DeviceDomain;
-    zoom?: number;
 }
 
-const HIGH_DPI = 150;
-const DEFAULT_ZOOM_OUT_DIVIDER = 0.5;
+const Device: React.FC<DeviceProps> = ({ device: { name, height, width, pixelRatio } }) => {
+    const deviceService = useInjection(DeviceService);
+    const { zoom, orientation } = useDeviceSettings();
 
-const Device: React.FC<DeviceFrameProps> = ({ device, zoom = DEFAULT_ZOOM_OUT_DIVIDER }) => {
-    const [orientation, setOrientation] = useState<Orientation>(Orientation.PORTRAIT);
-
-    const { name, type, height, width, pixelsPerInch } = device;
-    const devicePixelRatio = Math.round(pixelsPerInch / HIGH_DPI);
-
-    const deviceHeight = (height / devicePixelRatio) * zoom;
-    const deviceWidth = (width / devicePixelRatio) * zoom;
-
-    const deviceStyle = {
-        width: orientation === Orientation.PORTRAIT ? deviceWidth : deviceHeight,
-    };
-
-    const deviceObjectStyle = {
-        height: orientation === Orientation.PORTRAIT ? deviceHeight : deviceWidth,
-        width: orientation === Orientation.PORTRAIT ? deviceWidth : deviceHeight,
-    };
-
-    const onOrientationToggle = () => {
-        const newOrientation =
-            orientation === Orientation.PORTRAIT ? Orientation.LANDSCAPE : Orientation.PORTRAIT;
-        setOrientation(newOrientation);
-    };
+    const deviceHeight = deviceService.getSize(height, pixelRatio);
+    const deviceWidth = deviceService.getSize(width, pixelRatio);
+    const deviceStyle = deviceService.getSizeBasedOnSettings(
+        deviceHeight,
+        deviceWidth,
+        orientation,
+        zoom,
+    );
 
     const deviceOrientationClass = `Device--${orientation}`;
 
     return (
         <div className={`Device ${deviceOrientationClass}`} style={deviceStyle}>
-            <DeviceSettings type={type} onOrientationToggle={onOrientationToggle} />
-            <span className="Device__name">{`${name} - ${height} / ${width}`}</span>
-            <div className="Device__object" style={deviceObjectStyle}>
-                foo
-            </div>
+            <span className="Device__name">{`${name} (${height} / ${width})`}</span>
+            <DeviceIframe
+                name={name}
+                orientation={orientation}
+                height={deviceHeight}
+                width={deviceWidth}
+            />
         </div>
     );
 };

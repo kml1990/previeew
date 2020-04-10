@@ -1,0 +1,20 @@
+@import '../../constants.scss';
+
+$searchInputWidth: 10rem;
+$searchButtonWidth: 10rem;
+$searchButtonHeight: 2.4rem;
+
+
+.UrlSearch {
+    @extend %flexCenter;
+    margin: $smallMargin;
+}
+
+.UrlSearch__input {
+    width: $searchInputWidth;
+}
+
+.UrlSearch__button {
+    width: $searchButtonWidth;
+    height: $searchButtonHeight;
+}

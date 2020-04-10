@@ -1,16 +1,20 @@
 @import '../../constants.scss';
 
-$menuButtonHeight: 3.5rem;
-$menuButtonFontSize: 1.5rem;
+$sidebarIconSize: 1.25rem;
 
-.Sidebar__menuButton {
-    @extend %flexCenterVertically;
-    padding: $smallPadding;
-    height: $menuButtonHeight;
-    margin-left: $smallMargin;
+.Sidebar {
+    @extend %flexCenter;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.Sidebar__menu {
+    width: 100%;
+}
+
+.Sidebar__menuItem {
+    width: 100%;
     color: $secondaryColor;
-    font-size: $menuButtonFontSize;
-    &:hover {
-        color: darken($color: $secondaryColor, $amount: 5)
-    }
+    margin-top: $largeMargin;
+    font-size: $sidebarIconSize;
 }

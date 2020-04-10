@@ -17,6 +17,7 @@ export default class DeviceUnmarshaller implements Unmarshaller<DeviceDTO, Devic
             physical_size_cm,
             device_width,
             px_per_in,
+            pixel_ratio,
         } = deviceDto;
 
         return new Device({
@@ -30,6 +31,7 @@ export default class DeviceUnmarshaller implements Unmarshaller<DeviceDTO, Devic
             physicalSizeInCm: physical_size_cm,
             deviceWidth: device_width,
             pixelsPerInch: px_per_in,
+            pixelRatio: pixel_ratio,
         });
     }
 }

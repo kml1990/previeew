@@ -1,0 +1,16 @@
+@import '../../constants.scss';
+
+.SidebarButton__popover.popover {
+    margin-left: -$mediumMargin;
+    margin-top: -$xSmallMargin;
+    border-radius: $commonBorderRadius / 2;
+    background-color: $componentColor;
+    border: none;
+    max-width: 50%;
+    :first-child::before {
+        border: none;
+    }
+    .SidebarButton__popoverTitle {
+        background-color: transparent;
+    }
+}

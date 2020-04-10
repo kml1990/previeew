@@ -1,0 +1,17 @@
+@import '../../../constants.scss';
+
+.Backdrop {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: $sidebarWidth;
+    &--visible {
+        display: block;
+        background: $backdropColor;
+        width: 100% - $sidebarWidth;
+        height: 100vh;
+    }
+    &--hidden {
+        display: none;
+    }
+}

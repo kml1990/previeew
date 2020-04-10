@@ -1,0 +1,22 @@
+@import '../../constants.scss';
+
+$buttonSize: 2.5rem;
+$iconSize: 1.25rem;
+
+.DeviceOrientation {
+    display: flex;
+}
+
+.DeviceOrientation__button {
+    @extend %flexCenter;
+    margin: $smallMargin;
+    height: $buttonSize;
+    width: $buttonSize;
+    .Button__icon {
+        font-size: $iconSize;
+    }
+}
+
+.DeviceOrientation__landscape {
+    transform: rotate(90deg);
+}

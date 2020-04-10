@@ -8,16 +8,16 @@ import './Home.scss';
 
 const Home: React.FC = () => {
     const deviceService = dependenciesContainer.get(DeviceService);
-    const [devices, setDevices] = useState<DeviceDomain[]>([]);
+    const [selectedDevices, setSelectedDevices] = useState<DeviceDomain[]>([]);
 
     useEffect(() => {
-        setDevices(deviceService.devices);
+        setSelectedDevices(deviceService.getSelectedDevices());
     }, []);
 
     return (
         <div className="Home">
             <div className="Devices">
-                {devices.map((device) => {
+                {selectedDevices.map((device) => {
                     return <Device key={device.name} device={device} />;
                 })}
             </div>

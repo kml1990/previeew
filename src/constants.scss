@@ -6,19 +6,29 @@ $white:                         #FFFFFF;
 $primaryColor:                  #A3A0FB;
 $secondaryColor:                #A5A4BF;
 $backgroundColor:               #F0F0F7;
-$headerColor:                   $white;
+$componentColor:                #F8F9FA;
+$backdropColor:                 rgba(0, 0, 0, 0.50);
+
+// State Colors
+
+$primaryColorHover:             lighten($primaryColor, 5); 
+$primaryColorActive:            darken($primaryColor, 10);
 
 //==============================================================================
 // Spacing
 //==============================================================================
 
+$xSmallPadding:                 0.25rem;
 $smallPadding:                  0.5rem;
 $mediumPadding:                 1rem;
-$largePadding:                  2rem;
+$largePadding:                  1.5rem;
+$xLargePadding:                 2.5rem;
 
+$xSmallMargin:                  0.25rem;
 $smallMargin:                   0.5rem;
 $mediumMargin:                  1rem;
-$largeMargin:                   2rem;
+$largeMargin:                   1.5rem;
+$xLargeMargin:                  2.5rem;
 
 
 //==============================================================================
@@ -26,6 +36,12 @@ $largeMargin:                   2rem;
 //==============================================================================
 
 $menuTransition:                width 0.5s ease;
+
+//==============================================================================
+// Border
+//==============================================================================
+
+$commonBorderRadius: 2rem;
 
 //==============================================================================
 // Layout / Positioning
@@ -52,3 +68,5 @@ $menuTransition:                width 0.5s ease;
 // Components
 //==============================================================================
 
+$sidebarWidth: 8%;
+$contentWidth: 92%;

@@ -4,32 +4,47 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 import './Button.scss';
 
-export type OnClickCallback = () => void;
+export type OnClickCallback = (...args: any) => void;
 
 export enum ButtonVariant {
     PRIMARY = 'Button__primary',
     SECONDARY = 'Button__secondary',
 }
 
-export enum ButtonRole {
+export enum ButtonType {
     BUTTON = 'button',
     SUBMIT = 'submit',
+    RESET = 'reset',
 }
 
 export interface ButtonProps {
-    text: string;
-    variant: ButtonVariant;
+    text?: string;
+    variant?: ButtonVariant;
     icon?: IconProp;
+    type?: ButtonType;
     className?: string;
-    role?: ButtonRole,
-    onClick: OnClickCallback;
+    active?: boolean;
+    onClick?: OnClickCallback;
 }
 
-const Button: React.FC<ButtonProps> = ({ text, variant = ButtonVariant.PRIMARY, icon, className, role = ButtonRole.BUTTON, onClick }) => {
+const Button: React.FC<ButtonProps> = ({
+    text = '',
+    variant = ButtonVariant.PRIMARY,
+    icon,
+    className,
+    type = ButtonType.BUTTON,
+    active = false,
+    onClick,
+}) => {
+    const activeClass = active ? `${variant}--active` : '';
     return (
-        <button role={role} className={`Button ${variant} ${className}`} onClick={onClick}>
-            {icon && <FontAwesomeIcon className="Button__icon" icon={icon} /> }
-            <span className="Button__text">{text}</span>
+        <button
+            type={type}
+            className={`Button ${variant} ${activeClass} ${className}`}
+            onClick={onClick}
+        >
+            {icon && <FontAwesomeIcon className="Button__icon" icon={icon} />}
+            {text && <span className="Button__text">{text}</span>}
         </button>
     );
 };

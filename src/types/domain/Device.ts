@@ -14,6 +14,7 @@ export interface DeviceData {
     physicalSizeInCm: number;
     deviceWidth: number;
     pixelsPerInch: number;
+    pixelRatio: number;
 }
 
 export default class Device {
@@ -37,6 +38,8 @@ export default class Device {
 
     private readonly _pixelsPerInch: number;
 
+    private readonly _pixelRatio: number;
+
     constructor(deviceData: DeviceData) {
         const {
             name,
@@ -49,6 +52,7 @@ export default class Device {
             physicalSizeInCm,
             deviceWidth,
             pixelsPerInch,
+            pixelRatio,
         } = deviceData;
 
         this._name = name;
@@ -61,6 +65,7 @@ export default class Device {
         this._physicalSizeInCm = physicalSizeInCm;
         this._deviceWidth = deviceWidth;
         this._pixelsPerInch = pixelsPerInch;
+        this._pixelRatio = pixelRatio;
     }
 
     get name(): string {
@@ -101,5 +106,9 @@ export default class Device {
 
     get pixelsPerInch(): number {
         return this._pixelsPerInch;
+    }
+
+    get pixelRatio(): number {
+        return this._pixelRatio;
     }
 }

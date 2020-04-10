@@ -1,13 +1,23 @@
 @import "~bootstrap/scss/bootstrap";
 @import './constants.scss';
 
+//==============================================================================
+// Common
+//==============================================================================
+
+
 html {
   font-size: inherit;
 }
 
 body {
   background-color: $backgroundColor;
+  font-family: 'Raleway', sans-serif;
 }
+
+//==============================================================================
+// Overides
+//==============================================================================
 
 button {
   background: none;
@@ -27,4 +37,8 @@ button {
     border: 0.05rem solid rgba(0, 0, 0, 0.15);
     box-shadow: unset;
   }
+}
+
+.popover {
+  font-family: unset;
 }

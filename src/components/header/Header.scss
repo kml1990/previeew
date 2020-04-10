@@ -1,11 +1,12 @@
 @import '../../constants.scss';
 
-$headerBorderRadius: 2rem;
+$headerHeight: 3.5rem;
 
 .Header {
-    background-color: $headerColor;
-    border-radius: $headerBorderRadius;
+    background-color: $componentColor;
+    border-radius: $commonBorderRadius;
     margin-bottom: $largeMargin;
+    height: $headerHeight;
 }
 
 .Header__githubIcon {

@@ -13,4 +13,5 @@ export interface DeviceDTO {
     physical_size_cm: number;
     device_width: number;
     px_per_in: number;
+    pixel_ratio: number;
 }
