@@ -1,9 +1,9 @@
 import React from 'react';
 import { useInjection } from '../../common/di/DependencyContext';
-import DeviceService from '../../common/devices/DeviceService';
+import DeviceSettingsService from '../../common/devices/DeviceSettingsService';
 import DeviceDomain from '../../types/domain/Device';
-import DeviceIframe from './DeviceIframe';
-import { useDeviceSettings } from '../device_settings/SettingsContext';
+import DeviceIframe from './device_iframe/DeviceIframe';
+import { useSettings } from '../common/context/SettingsContext';
 
 import './Device.scss';
 
@@ -12,12 +12,12 @@ export interface DeviceProps {
 }
 
 const Device: React.FC<DeviceProps> = ({ device: { name, height, width, pixelRatio } }) => {
-    const deviceService = useInjection(DeviceService);
-    const { zoom, orientation } = useDeviceSettings();
+    const deviceSettingsService = useInjection(DeviceSettingsService);
+    const { zoom, orientation } = useSettings();
 
-    const deviceHeight = deviceService.getSize(height, pixelRatio);
-    const deviceWidth = deviceService.getSize(width, pixelRatio);
-    const deviceStyle = deviceService.getSizeBasedOnSettings(
+    const deviceHeight = DeviceSettingsService.getSize(height, pixelRatio);
+    const deviceWidth = DeviceSettingsService.getSize(width, pixelRatio);
+    const deviceStyle = deviceSettingsService.getSizeBasedOnSettings(
         deviceHeight,
         deviceWidth,
         orientation,

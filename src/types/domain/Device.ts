@@ -1,7 +1,11 @@
 import { Make } from '../Make';
 import OS from '../OS';
 
-export type DeviceType = 'Phone' | 'Tablet' | 'Desktop';
+export enum DeviceType {
+    PHONE = 'phone',
+    TABLET = 'tablet',
+    MONITOR = 'monitor',
+}
 
 export interface DeviceData {
     name: string;

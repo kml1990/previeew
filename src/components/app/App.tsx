@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Routes } from '../../common/routes/Routes';
-import DeviceSettingsProvider from '../device_settings/SettingsContext'
+import SettingsProvider from '../common/context/SettingsContext'
 import Home from '../home/Home';
-import Header from '../header/Header';
-import Sidebar from '../sidebar/Sidebar';
+import Header from '../common/header/Header';
+import Sidebar from '../common/sidebar/Sidebar';
 
 import './App.scss';
 
@@ -12,7 +12,7 @@ const App: React.FC = () => {
     return (
         <div className="App">
             <BrowserRouter>
-                <DeviceSettingsProvider>
+                <SettingsProvider>
                     <Header className="App__header" />
                     <Sidebar className="App__sidebar" />
                     <div className="App__content">
@@ -20,7 +20,7 @@ const App: React.FC = () => {
                             <Route className="App" exact path={Routes.HOME} component={Home} />
                         </Switch>
                     </div>
-                </DeviceSettingsProvider>
+                </SettingsProvider>
             </BrowserRouter>
         </div>
     );

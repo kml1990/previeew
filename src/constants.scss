@@ -12,7 +12,10 @@ $backdropColor:                 rgba(0, 0, 0, 0.50);
 // State Colors
 
 $primaryColorHover:             lighten($primaryColor, 5); 
-$primaryColorActive:            darken($primaryColor, 10);
+$primaryColorActive:            darken($primaryColor, 15);
+
+$secondaryColorHover:             lighten($secondaryColor, 5); 
+$secondaryColorActive:            darken($secondaryColor, 15);
 
 //==============================================================================
 // Spacing
@@ -41,7 +44,7 @@ $menuTransition:                width 0.5s ease;
 // Border
 //==============================================================================
 
-$commonBorderRadius: 2rem;
+$commonBorderRadius:            2rem;
 
 //==============================================================================
 // Layout / Positioning
@@ -68,5 +71,5 @@ $commonBorderRadius: 2rem;
 // Components
 //==============================================================================
 
-$sidebarWidth: 8%;
-$contentWidth: 92%;
+$sidebarWidth: 5rem;
+$contentWidth: calc(100% - #{$sidebarWidth});

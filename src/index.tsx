@@ -1,20 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'reflect-metadata';
-import { DependencyProvider } from './common/di/DependencyContext';
-import dependenciesContainer from './common/di/DependencyContainer';
 import App from './components/app/App';
-import BackdropProvider from './components/common/Backdrop/BackdropContext';
+import ContextProvider from './components/common/context/ContextProvider';
 import * as serviceWorker from './serviceWorker';
 
 import './index.scss';
 
 ReactDOM.render(
-    <DependencyProvider container={dependenciesContainer}>
-        <BackdropProvider>
-            <App />
-        </BackdropProvider>
-    </DependencyProvider>,
+    <ContextProvider>
+        <App />
+    </ContextProvider>,
     document.getElementById('root'),
 );
 

@@ -3,13 +3,8 @@ import DeviceDTOs from './Devices.json';
 import DeviceUnmarshaller from '../../types/marshalling/DeviceUnmarshaller';
 import dependenciesContainer from '../di/DependencyContainer';
 import { DeviceDTO } from '../../types/dto/DeviceDto';
-import Device from '../../types/domain/Device';
-import { Orientation } from '../../types/Orientation';
-
-export interface DeviceSize {
-    height: number;
-    width: number;
-}
+import Device, { DeviceType } from '../../types/domain/Device';
+import StringUtil from '../../utils/string/StringUtil';
 
 export type DeviceMap = Map<string, Device>;
 
@@ -25,8 +20,6 @@ const DEFAULT_SELECTED_DEVICES = [
     // 'Apple MacBook Pro 13-inch',
     // 'Dell U2713HM 27',
 ];
-
-const ZOOM_PERCENTAGE_TO_TENTHS = 100;
 
 @injectable()
 export default class DeviceService {
@@ -48,6 +41,10 @@ export default class DeviceService {
         this._deviceUnmarshaller = dependenciesContainer.get(DeviceUnmarshaller);
     }
 
+    getAllDevices(): Device[] {
+        return Array.from(this._devices.values());
+    }
+
     getSelectedDevices(): Device[] {
         if (this._selectedDevices.size === 0) {
             const selectedDevices = this.getDefaultSelectedDevices();
@@ -56,40 +53,18 @@ export default class DeviceService {
         return Array.from(this._selectedDevices);
     }
 
+    getTypes(): string[] {
+        return Object.values(DeviceType).map((deviceType: string) =>
+            StringUtil.capitalize(deviceType),
+        );
+    }
+
     getPlatforms(): string[] {
         return Array.from(this._devicePlatforms);
     }
 
     getMakes(): string[] {
         return Array.from(this._deviceMakes);
-    }
-
-    getSize(size: number, pixelRatio: number): number {
-        return size / pixelRatio;
-    }
-
-    getSizeBasedOnSettings(
-        height: number,
-        width: number,
-        orientation: Orientation,
-        zoom: number,
-    ): DeviceSize {
-        if (orientation === Orientation.LANDSCAPE) {
-            return {
-                height: width * this.getZoomScale(zoom),
-                width: height * this.getZoomScale(zoom),
-            };
-        }
-        return {
-            height: height * this.getZoomScale(zoom),
-            width: width * this.getZoomScale(zoom),
-        };
-    }
-
-    // TODO move to device settings service
-
-    private getZoomScale(zoom: number): number {
-        return zoom / ZOOM_PERCENTAGE_TO_TENTHS;
     }
 
     private getDefaultSelectedDevices(): Set<Device> {

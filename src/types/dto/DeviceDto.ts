@@ -1,6 +1,6 @@
-import { DeviceType } from '../Device';
 import { Make } from '../Make';
 import OS from '../OS';
+import { DeviceType } from '../domain/Device';
 
 export interface DeviceDTO {
     name: string;

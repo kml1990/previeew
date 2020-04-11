@@ -1,5 +1,5 @@
 import React from 'react';
-import { useBackdrop } from './BackdropContext';
+import { useBackdrop } from '../context/BackdropContext';
 
 import './Backdrop.scss';
 

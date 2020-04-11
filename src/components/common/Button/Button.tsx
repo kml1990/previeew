@@ -37,10 +37,11 @@ const Button: React.FC<ButtonProps> = ({
     onClick,
 }) => {
     const activeClass = active ? `${variant}--active` : '';
+    const withIconClass = icon ? 'Button--withIcon' : '';
     return (
         <button
             type={type}
-            className={`Button ${variant} ${activeClass} ${className}`}
+            className={`Button ${variant} ${activeClass} ${withIconClass} ${className}`}
             onClick={onClick}
         >
             {icon && <FontAwesomeIcon className="Button__icon" icon={icon} />}

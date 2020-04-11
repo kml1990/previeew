@@ -8,7 +8,7 @@
     &--visible {
         display: block;
         background: $backdropColor;
-        width: 100% - $sidebarWidth;
+        width: calc(100% - #{$sidebarWidth});
         height: 100vh;
     }
     &--hidden {

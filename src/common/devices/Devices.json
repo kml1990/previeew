@@ -9,7 +9,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -22,7 +22,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -35,7 +35,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -48,7 +48,7 @@
         "device_width": 750,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -61,7 +61,7 @@
         "device_width": 1440,
         "px_per_in": 529,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -74,7 +74,7 @@
         "device_width": 320,
         "px_per_in": 233,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -87,7 +87,7 @@
         "device_width": 320,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -100,7 +100,7 @@
         "device_width": 1440,
         "px_per_in": 577,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -113,7 +113,7 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -126,7 +126,7 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -139,7 +139,7 @@
         "device_width": 320,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -152,7 +152,7 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Google",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -165,7 +165,7 @@
         "device_width": 1080,
         "px_per_in": 432,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -178,7 +178,7 @@
         "device_width": 1080,
         "px_per_in": 294,
         "make": "Oppo",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -191,7 +191,7 @@
         "device_width": 1440,
         "px_per_in": 518,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -204,7 +204,7 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "Huawei",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -217,7 +217,7 @@
         "device_width": 1440,
         "px_per_in": 538,
         "make": "LG",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -230,7 +230,7 @@
         "device_width": 400,
         "px_per_in": 285,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -243,7 +243,7 @@
         "device_width": 1440,
         "px_per_in": 538,
         "make": "LG",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -256,7 +256,7 @@
         "device_width": 1440,
         "px_per_in": 515,
         "make": "LG",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -269,7 +269,7 @@
         "device_width": 1440,
         "px_per_in": 518,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -282,7 +282,7 @@
         "device_width": 1440,
         "px_per_in": 515,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -295,7 +295,7 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -308,7 +308,7 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -321,7 +321,7 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Oppo",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -334,7 +334,7 @@
         "device_width": 1440,
         "px_per_in": 453,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -347,7 +347,7 @@
         "device_width": 320,
         "px_per_in": 252,
         "make": "Nokia",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -360,7 +360,7 @@
         "device_width": 1440,
         "px_per_in": 540,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -373,7 +373,7 @@
         "device_width": 360,
         "px_per_in": 316,
         "make": "Alcatel",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -386,7 +386,7 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "Alcatel",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -399,7 +399,7 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Asus",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -412,7 +412,7 @@
         "device_width": 1440,
         "px_per_in": 540,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -425,7 +425,7 @@
         "device_width": 320,
         "px_per_in": 252,
         "make": "HTC",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -438,7 +438,7 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "HTC",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -451,7 +451,7 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "HTC",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -464,7 +464,7 @@
         "device_width": 360,
         "px_per_in": 468,
         "make": "HTC",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -477,7 +477,7 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "HTC",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -490,7 +490,7 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "HTC",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -503,7 +503,7 @@
         "device_width": 384,
         "px_per_in": 320,
         "make": "LG",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -516,7 +516,7 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "LG",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -529,7 +529,7 @@
         "device_width": 768,
         "px_per_in": 318,
         "make": "LG",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -542,7 +542,7 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "LG",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -555,7 +555,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "LG",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -568,7 +568,7 @@
         "device_width": 320,
         "px_per_in": 265,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -581,7 +581,7 @@
         "device_width": 360,
         "px_per_in": 280,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -594,7 +594,7 @@
         "device_width": 360,
         "px_per_in": 256,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -607,7 +607,7 @@
         "device_width": 360,
         "px_per_in": 256,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -620,7 +620,7 @@
         "device_width": 1440,
         "px_per_in": 520,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -633,7 +633,7 @@
         "device_width": 1440,
         "px_per_in": 493,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -646,7 +646,7 @@
         "device_width": 1440,
         "px_per_in": 565,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -659,7 +659,7 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -672,7 +672,7 @@
         "device_width": 540,
         "px_per_in": 256,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -685,7 +685,7 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "OnePlus",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -698,7 +698,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "OnePlus",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -711,7 +711,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "OnePlus",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -724,7 +724,7 @@
         "device_width": 360,
         "px_per_in": 316,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -737,7 +737,7 @@
         "device_width": 360,
         "px_per_in": 267,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -750,7 +750,7 @@
         "device_width": 320,
         "px_per_in": 233,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -763,7 +763,7 @@
         "device_width": 320,
         "px_per_in": 219,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -776,7 +776,7 @@
         "device_width": 360,
         "px_per_in": 306,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -789,7 +789,7 @@
         "device_width": 360,
         "px_per_in": 441,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -802,7 +802,7 @@
         "device_width": 320,
         "px_per_in": 235,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -815,7 +815,7 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -828,7 +828,7 @@
         "device_width": 360,
         "px_per_in": 441,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -841,7 +841,7 @@
         "device_width": 720,
         "px_per_in": 245,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -854,7 +854,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -867,7 +867,7 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -880,7 +880,7 @@
         "device_width": 1080,
         "px_per_in": 386,
         "make": "Xiaomi",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -893,7 +893,7 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Xiaomi",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -906,7 +906,7 @@
         "device_width": 1080,
         "px_per_in": 400,
         "make": "Infocus",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -919,7 +919,7 @@
         "device_width": 540,
         "px_per_in": 220,
         "make": "VIVO",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -932,7 +932,7 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Oppo",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -945,7 +945,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Oppo",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -958,7 +958,7 @@
         "device_width": 1080,
         "px_per_in": 367,
         "make": "Oppo",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -971,7 +971,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Oppo",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -984,7 +984,7 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Oppo",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -997,7 +997,7 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Panasonic",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1010,7 +1010,7 @@
         "device_width": 720,
         "px_per_in": 312,
         "make": "Panasonic",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1023,7 +1023,7 @@
         "device_width": 480,
         "px_per_in": 218,
         "make": "Panasonic",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -1036,7 +1036,7 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Philips",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1049,7 +1049,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Philips",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1062,7 +1062,7 @@
         "device_width": 480,
         "px_per_in": 233,
         "make": "Panasonic",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1075,7 +1075,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Lenovo",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1088,7 +1088,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Lenovo",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1101,7 +1101,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1114,7 +1114,7 @@
         "device_width": 1440,
         "px_per_in": 535,
         "make": "Motorola",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -1127,7 +1127,7 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1140,7 +1140,7 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1153,7 +1153,7 @@
         "device_width": 540,
         "px_per_in": 220,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -1166,7 +1166,7 @@
         "device_width": 1080,
         "px_per_in": 403,
         "make": "Xiaomi",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1179,7 +1179,7 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "Sony",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1192,7 +1192,7 @@
         "device_width": 360,
         "px_per_in": 330,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1205,7 +1205,7 @@
         "device_width": 384,
         "px_per_in": 356,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1218,7 +1218,7 @@
         "device_width": 540,
         "px_per_in": 220,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -1231,7 +1231,7 @@
         "device_width": 768,
         "px_per_in": 328,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1244,7 +1244,7 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1257,7 +1257,7 @@
         "device_width": 720,
         "px_per_in": 291,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1270,7 +1270,7 @@
         "device_width": 360,
         "px_per_in": 188,
         "make": "BlackBerry",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -1283,7 +1283,7 @@
         "device_width": 320,
         "px_per_in": 163,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -1296,7 +1296,7 @@
         "device_width": 750,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1309,7 +1309,7 @@
         "device_width": 750,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1322,7 +1322,7 @@
         "device_width": 384,
         "px_per_in": 332,
         "make": "Nokia",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1335,7 +1335,7 @@
         "device_width": 320,
         "px_per_in": 233,
         "make": "Nokia",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1348,7 +1348,7 @@
         "device_width": 320,
         "px_per_in": 246,
         "make": "Nokia",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1361,7 +1361,7 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "Nokia",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -1374,7 +1374,7 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "Nokia",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 1
     },
     {
@@ -1387,7 +1387,7 @@
         "device_width": 384,
         "px_per_in": 332,
         "make": "Nokia",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1400,7 +1400,7 @@
         "device_width": 384,
         "px_per_in": 332,
         "make": "Nokia",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1413,7 +1413,7 @@
         "device_width": 1440,
         "px_per_in": 564,
         "make": "Microsoft",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -1426,7 +1426,7 @@
         "device_width": 720,
         "px_per_in": 312,
         "make": "Panasonic",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1439,7 +1439,7 @@
         "device_width": 1440,
         "px_per_in": 518,
         "make": "Huawei",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1452,7 +1452,7 @@
         "device_width": 1080,
         "px_per_in": 432,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1465,7 +1465,7 @@
         "device_width": 1440,
         "px_per_in": 534,
         "make": "Google",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -1478,7 +1478,7 @@
         "device_width": 1440,
         "px_per_in": 570,
         "make": "Samsung",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 4
     },
     {
@@ -1491,7 +1491,7 @@
         "device_width": 750,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1504,7 +1504,7 @@
         "device_width": 1125,
         "px_per_in": 463,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1517,7 +1517,7 @@
         "device_width": 828,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 2
     },
     {
@@ -1530,7 +1530,7 @@
         "device_width": 1125,
         "px_per_in": 458,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1543,7 +1543,7 @@
         "device_width": 1242,
         "px_per_in": 458,
         "make": "Apple",
-        "type": "Phone",
+        "type": "phone",
         "pixel_ratio": 3
     },
     {
@@ -1556,7 +1556,7 @@
         "device_width": 2048,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1569,7 +1569,7 @@
         "device_width": 768,
         "px_per_in": 163,
         "make": "Apple",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1582,7 +1582,7 @@
         "device_width": 2048,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1595,7 +1595,7 @@
         "device_width": 1536,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1608,7 +1608,7 @@
         "device_width": 1536,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1621,7 +1621,7 @@
         "device_width": 1536,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1634,7 +1634,7 @@
         "device_width": 1824,
         "px_per_in": 263,
         "make": "Microsoft",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1647,7 +1647,7 @@
         "device_width": 1080,
         "px_per_in": 368,
         "make": "Huawei",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1660,7 +1660,7 @@
         "device_width": 1536,
         "px_per_in": 264,
         "make": "Samsung",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1673,7 +1673,7 @@
         "device_width": 600,
         "px_per_in": 171,
         "make": "Amazon",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1686,7 +1686,7 @@
         "device_width": 1824,
         "px_per_in": 267,
         "make": "Microsoft",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1699,7 +1699,7 @@
         "device_width": 800,
         "px_per_in": 224,
         "make": "Asus",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1712,7 +1712,7 @@
         "device_width": 600,
         "px_per_in": 170,
         "make": "Samsung",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1725,7 +1725,7 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Samsung",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1738,7 +1738,7 @@
         "device_width": 800,
         "px_per_in": 189,
         "make": "Amazon",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1751,7 +1751,7 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Amazon",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1764,7 +1764,7 @@
         "device_width": 1600,
         "px_per_in": 299,
         "make": "Sony",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1777,7 +1777,7 @@
         "device_width": 1440,
         "px_per_in": 216,
         "make": "Microsoft",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1790,7 +1790,7 @@
         "device_width": 1200,
         "px_per_in": 307,
         "make": "Google",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1803,7 +1803,7 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Acer",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1816,7 +1816,7 @@
         "device_width": 768,
         "px_per_in": 190,
         "make": "Acer",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1829,7 +1829,7 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Ainol",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1842,7 +1842,7 @@
         "device_width": 600,
         "px_per_in": 169,
         "make": "Ainol",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1855,7 +1855,7 @@
         "device_width": 1024,
         "px_per_in": 264,
         "make": "Ainol",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1868,7 +1868,7 @@
         "device_width": 600,
         "px_per_in": 169,
         "make": "Amazon",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1881,7 +1881,7 @@
         "device_width": 533,
         "px_per_in": 216,
         "make": "Amazon",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1894,7 +1894,7 @@
         "device_width": 800,
         "px_per_in": 254,
         "make": "Amazon",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1907,7 +1907,7 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Asus",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1920,7 +1920,7 @@
         "device_width": 603,
         "px_per_in": 216,
         "make": "Asus",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1933,7 +1933,7 @@
         "device_width": 600,
         "px_per_in": 323,
         "make": "Asus",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -1946,7 +1946,7 @@
         "device_width": 600,
         "px_per_in": 171,
         "make": "Barnes & Noble",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1959,7 +1959,7 @@
         "device_width": 600,
         "px_per_in": 216,
         "make": "HP",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1972,7 +1972,7 @@
         "device_width": 600,
         "px_per_in": 170,
         "make": "HP",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1985,7 +1985,7 @@
         "device_width": 800,
         "px_per_in": 216,
         "make": "HP",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -1998,7 +1998,7 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Micromax",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 3
     },
     {
@@ -2011,7 +2011,7 @@
         "device_width": 533,
         "px_per_in": 149,
         "make": "Samsung",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2024,7 +2024,7 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Toshiba",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2037,7 +2037,7 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Toshiba",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2050,7 +2050,7 @@
         "device_width": 800,
         "px_per_in": 189,
         "make": "Toshiba",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2063,7 +2063,7 @@
         "device_width": 800,
         "px_per_in": 216,
         "make": "Dell",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2076,7 +2076,7 @@
         "device_width": 600,
         "px_per_in": 170,
         "make": "HP",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2089,7 +2089,7 @@
         "device_width": 600,
         "px_per_in": 170,
         "make": "Toshiba",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2102,7 +2102,7 @@
         "device_width": 800,
         "px_per_in": 294,
         "make": "HP",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -2115,7 +2115,7 @@
         "device_width": 600,
         "px_per_in": 169,
         "make": "BlackBerry",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2128,7 +2128,7 @@
         "device_width": 768,
         "px_per_in": 132,
         "make": "Apple",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2141,7 +2141,7 @@
         "device_width": 768,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -2154,7 +2154,7 @@
         "device_width": 900,
         "px_per_in": 300,
         "make": "FUJITSU",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -2167,7 +2167,7 @@
         "device_width": 720,
         "px_per_in": 190,
         "make": "FUJITSU",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2180,7 +2180,7 @@
         "device_width": 540,
         "px_per_in": 165,
         "make": "FUJITSU",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2193,7 +2193,7 @@
         "device_width": 800,
         "px_per_in": 154,
         "make": "Acer",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2206,7 +2206,7 @@
         "device_width": 800,
         "px_per_in": 252,
         "make": "Amazon",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -2219,7 +2219,7 @@
         "device_width": 800,
         "px_per_in": 189,
         "make": "Asus",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2232,7 +2232,7 @@
         "device_width": 800,
         "px_per_in": 323,
         "make": "Asus",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -2245,7 +2245,7 @@
         "device_width": 1536,
         "px_per_in": 288,
         "make": "HTC",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -2258,7 +2258,7 @@
         "device_width": 1200,
         "px_per_in": 224,
         "make": "Lenovo",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2271,7 +2271,7 @@
         "device_width": 1600,
         "px_per_in": 247,
         "make": "Samsung",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 2
     },
     {
@@ -2284,7 +2284,7 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Dell",
-        "type": "Tablet",
+        "type": "tablet",
         "pixel_ratio": 1
     },
     {
@@ -2297,7 +2297,7 @@
         "device_width": 1080,
         "px_per_in": 276,
         "make": "Dell",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 2
     },
     {
@@ -2310,7 +2310,7 @@
         "device_width": 2304,
         "px_per_in": 226,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 2
     },
     {
@@ -2323,7 +2323,7 @@
         "device_width": 1366,
         "px_per_in": 135,
         "make": "Acer",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2336,7 +2336,7 @@
         "device_width": 1366,
         "px_per_in": 135,
         "make": "Samsung",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2349,7 +2349,7 @@
         "device_width": 2560,
         "px_per_in": 227,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 2
     },
     {
@@ -2362,7 +2362,7 @@
         "device_width": 3000,
         "px_per_in": 267,
         "make": "Microsoft",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 2
     },
     {
@@ -2375,7 +2375,7 @@
         "device_width": 1440,
         "px_per_in": 128,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2388,7 +2388,7 @@
         "device_width": 2880,
         "px_per_in": 220,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2401,7 +2401,7 @@
         "device_width": 5120,
         "px_per_in": 218,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2414,7 +2414,7 @@
         "device_width": 1366,
         "px_per_in": 135,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2427,7 +2427,7 @@
         "device_width": 1280,
         "px_per_in": 150,
         "make": "Asus",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2440,7 +2440,7 @@
         "device_width": 1366,
         "px_per_in": 125,
         "make": "Lenovo",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2453,7 +2453,7 @@
         "device_width": 1920,
         "px_per_in": 276,
         "make": "Asus",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 2
     },
     {
@@ -2466,7 +2466,7 @@
         "device_width": 1366,
         "px_per_in": 100,
         "make": "Dell",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2479,7 +2479,7 @@
         "device_width": 1280,
         "px_per_in": 239,
         "make": "Google",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 2
     },
     {
@@ -2492,7 +2492,7 @@
         "device_width": 1920,
         "px_per_in": 131,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2505,7 +2505,7 @@
         "device_width": 3840,
         "px_per_in": 157,
         "make": "Asus",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2518,7 +2518,7 @@
         "device_width": 2560,
         "px_per_in": 100,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2531,7 +2531,7 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2544,7 +2544,7 @@
         "device_width": 1921,
         "px_per_in": 102,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2557,7 +2557,7 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2570,7 +2570,7 @@
         "device_width": 1366,
         "px_per_in": 135,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2583,7 +2583,7 @@
         "device_width": 1440,
         "px_per_in": 128,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2596,7 +2596,7 @@
         "device_width": 1280,
         "px_per_in": 113,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2609,7 +2609,7 @@
         "device_width": 1280,
         "px_per_in": 227,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 2
     },
     {
@@ -2622,7 +2622,7 @@
         "device_width": 1440,
         "px_per_in": 110,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2635,7 +2635,7 @@
         "device_width": 1680,
         "px_per_in": 128,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2648,7 +2648,7 @@
         "device_width": 1440,
         "px_per_in": 220,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2661,7 +2661,7 @@
         "device_width": 1080,
         "px_per_in": 149,
         "make": "Panasonic",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2674,7 +2674,7 @@
         "device_width": 768,
         "px_per_in": 96,
         "make": "Panasonic",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2687,7 +2687,7 @@
         "device_width": 2160,
         "px_per_in": 149,
         "make": "Panasonic",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2700,7 +2700,7 @@
         "device_width": 768,
         "px_per_in": 96,
         "make": "Panasonic",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2713,7 +2713,7 @@
         "device_width": 1366,
         "px_per_in": 100,
         "make": "Asus",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2726,7 +2726,7 @@
         "device_width": 1600,
         "px_per_in": 130,
         "make": "Dell",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2739,7 +2739,7 @@
         "device_width": 1920,
         "px_per_in": 96,
         "make": "Dell",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2752,7 +2752,7 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "Dell",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2765,7 +2765,7 @@
         "device_width": 1920,
         "px_per_in": 94,
         "make": "Dell",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2778,7 +2778,7 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "Dell",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2791,7 +2791,7 @@
         "device_width": 2560,
         "px_per_in": 100,
         "make": "Dell",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2804,7 +2804,7 @@
         "device_width": 1920,
         "px_per_in": 96,
         "make": "Dell",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2817,7 +2817,7 @@
         "device_width": 1366,
         "px_per_in": 100,
         "make": "HP",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2830,7 +2830,7 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "HP",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2843,7 +2843,7 @@
         "device_width": 2160,
         "px_per_in": 441,
         "make": "Panasonic",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 3
     },
     {
@@ -2856,7 +2856,7 @@
         "device_width": 768,
         "px_per_in": 320,
         "make": "Panasonic",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 2
     },
     {
@@ -2869,7 +2869,7 @@
         "device_width": 4096,
         "px_per_in": 219,
         "make": "Apple",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2882,7 +2882,7 @@
         "device_width": 3840,
         "px_per_in": 163,
         "make": "Acer",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2895,7 +2895,7 @@
         "device_width": 1920,
         "px_per_in": 127,
         "make": "Asus",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     },
     {
@@ -2908,7 +2908,7 @@
         "device_width": 1920,
         "px_per_in": 94,
         "make": "ViewSonic",
-        "type": "Monitor",
+        "type": "monitor",
         "pixel_ratio": 1
     }
 ]

@@ -1,7 +1,6 @@
 import { Make } from './Make';
 import OS from './OS';
-
-export type DeviceType = 'Phone' | 'Tablet' | 'Desktop';
+import { DeviceType } from './domain/Device';
 
 export interface Device {
     device: string;

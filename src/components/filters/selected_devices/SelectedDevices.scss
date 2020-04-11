@@ -1,0 +1,25 @@
+@import '../../../constants.scss';
+
+.SelectedDevices {
+    .SelectedDevices__control {
+        border-radius: $commonBorderRadius;
+        padding: ($smallPadding / 2) $smallPadding;
+        margin-bottom: $mediumMargin;
+
+        &-is-focused,
+        &:hover {
+            border-color: $primaryColorActive;
+        }
+    }
+
+    
+    .SelectedDevices__multi-value {
+        background-color: $primaryColor;
+        border-radius: $commonBorderRadius;
+        color: white;
+    }
+    
+    .SelectedDevices__multi-value__label {
+        color: white,
+    }
+}
