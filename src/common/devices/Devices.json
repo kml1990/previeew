@@ -1,7 +1,7 @@
 [
     {
         "name": "Apple iPhone 7 Plus",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -9,12 +9,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Apple iPhone 6 Plus",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -22,12 +22,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Apple iPhone 8 Plus",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 5.5,
         "physical_size_cm": 13.9,
         "width": 1080,
@@ -35,12 +35,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Apple iPhone 6s",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 4.7,
         "physical_size_cm": 11.9,
         "width": 750,
@@ -48,12 +48,12 @@
         "device_width": 750,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Galaxy S8+",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 6.2,
         "physical_size_cm": 15.7,
         "width": 1440,
@@ -61,12 +61,12 @@
         "device_width": 1440,
         "px_per_in": 529,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "Samsung Galaxy S",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4,
         "physical_size_cm": 10,
         "width": 480,
@@ -74,12 +74,12 @@
         "device_width": 320,
         "px_per_in": 233,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iPhone 5 (5c,5s)",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 4,
         "physical_size_cm": 10,
         "width": 640,
@@ -87,12 +87,12 @@
         "device_width": 320,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Galaxy S6",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.1,
         "physical_size_cm": 13,
         "width": 1440,
@@ -100,12 +100,12 @@
         "device_width": 1440,
         "px_per_in": 577,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "Samsung A5",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 720,
@@ -113,12 +113,12 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Galaxy J7",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 720,
@@ -126,12 +126,12 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iPhone 4 (4,4S)",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 3.5,
         "physical_size_cm": 8.9,
         "width": 640,
@@ -139,12 +139,12 @@
         "device_width": 320,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Google Pixel",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 1080,
@@ -152,12 +152,12 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Google",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Samsung Galaxy S5",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.1,
         "physical_size_cm": 13,
         "width": 1080,
@@ -165,12 +165,12 @@
         "device_width": 1080,
         "px_per_in": 432,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Oppo A37",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12,
         "width": 1080,
@@ -178,12 +178,12 @@
         "device_width": 1080,
         "px_per_in": 294,
         "make": "Oppo",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Galaxy S6 Edge+",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.7,
         "physical_size_cm": 14.5,
         "width": 1440,
@@ -191,12 +191,12 @@
         "device_width": 1440,
         "px_per_in": 518,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Huawei P8",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.2,
         "physical_size_cm": 13.2,
         "width": 1080,
@@ -204,12 +204,12 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "Huawei",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "LG G4",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1440,
@@ -217,12 +217,12 @@
         "device_width": 1440,
         "px_per_in": 538,
         "make": "LG",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "Samsung Galaxy Note",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.3,
         "physical_size_cm": 13.5,
         "width": 800,
@@ -230,12 +230,12 @@
         "device_width": 400,
         "px_per_in": 285,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "LG G3",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 12.7,
         "width": 1440,
@@ -243,12 +243,12 @@
         "device_width": 1440,
         "px_per_in": 538,
         "make": "LG",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "LG V10",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.7,
         "physical_size_cm": 14.5,
         "width": 1440,
@@ -256,12 +256,12 @@
         "device_width": 1440,
         "px_per_in": 515,
         "make": "LG",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Samsung Galaxy Note5",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.7,
         "physical_size_cm": 14.5,
         "width": 1440,
@@ -269,12 +269,12 @@
         "device_width": 1440,
         "px_per_in": 518,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Samsung Galaxy Note4",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.7,
         "physical_size_cm": 14.5,
         "width": 1440,
@@ -282,12 +282,12 @@
         "device_width": 1440,
         "px_per_in": 515,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Sony Xperia Z3",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.2,
         "physical_size_cm": 13.2,
         "width": 1080,
@@ -295,12 +295,12 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Sony Xperia Z5",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.2,
         "physical_size_cm": 13.2,
         "width": 1080,
@@ -308,12 +308,12 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Oppo F1",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12,
         "width": 720,
@@ -321,12 +321,12 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Oppo",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "BlackBerry Passport",
-        "os": "BlackBerry",
+        "platform": "BlackBerry",
         "physical_size_inch": 4.5,
         "physical_size_cm": 11,
         "width": 1440,
@@ -334,12 +334,12 @@
         "device_width": 1440,
         "px_per_in": 453,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Nokia Lumia (710,800)",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 3.7,
         "physical_size_cm": 9.4,
         "width": 480,
@@ -347,12 +347,12 @@
         "device_width": 320,
         "px_per_in": 252,
         "make": "Nokia",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "BlackBerry Priv",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.4,
         "physical_size_cm": 13.7,
         "width": 1440,
@@ -360,12 +360,12 @@
         "device_width": 1440,
         "px_per_in": 540,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "Alcatel One Touch Idol Ultra",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.7,
         "physical_size_cm": 11.9,
         "width": 720,
@@ -373,12 +373,12 @@
         "device_width": 360,
         "px_per_in": 316,
         "make": "Alcatel",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Alcatel One Touch Ultra 995",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.3,
         "physical_size_cm": 10.9,
         "width": 480,
@@ -386,12 +386,12 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "Alcatel",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "Asus Zenfone Max ZC550KL",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 720,
@@ -399,12 +399,12 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Asus",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "BlackBerry BlackBerry Priv",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.4,
         "physical_size_cm": 14,
         "width": 1440,
@@ -412,12 +412,12 @@
         "device_width": 1440,
         "px_per_in": 540,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "HTC Desire",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 3.7,
         "physical_size_cm": 9.4,
         "width": 480,
@@ -425,12 +425,12 @@
         "device_width": 320,
         "px_per_in": 252,
         "make": "HTC",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "HTC Desire HD",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.3,
         "physical_size_cm": 11,
         "width": 480,
@@ -438,12 +438,12 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "HTC",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "HTC Evo",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.3,
         "physical_size_cm": 11,
         "width": 480,
@@ -451,12 +451,12 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "HTC",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "HTC One",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.7,
         "physical_size_cm": 12,
         "width": 1080,
@@ -464,12 +464,12 @@
         "device_width": 360,
         "px_per_in": 468,
         "make": "HTC",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "HTC One M9",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 1080,
@@ -477,12 +477,12 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "HTC",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "HTC One M8",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 1080,
@@ -490,12 +490,12 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "HTC",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "LG Nexus 4",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.7,
         "physical_size_cm": 12,
         "width": 768,
@@ -503,12 +503,12 @@
         "device_width": 384,
         "px_per_in": 320,
         "make": "LG",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "LG Nexus 5X",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.2,
         "physical_size_cm": 13.2,
         "width": 1080,
@@ -516,12 +516,12 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "LG",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "LG Nexus 4 AR",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.7,
         "physical_size_cm": 11.9,
         "width": 768,
@@ -529,12 +529,12 @@
         "device_width": 768,
         "px_per_in": 318,
         "make": "LG",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "LG Phoenix 2",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 2.5,
         "physical_size_cm": 11.1,
         "width": 720,
@@ -542,12 +542,12 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "LG",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "LG GX F310L",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -555,12 +555,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "LG",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Motorola Droid",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 3.7,
         "physical_size_cm": 9.4,
         "width": 480,
@@ -568,12 +568,12 @@
         "device_width": 320,
         "px_per_in": 265,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Motorola Droid 3 & 4",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4,
         "physical_size_cm": 10,
         "width": 540,
@@ -581,12 +581,12 @@
         "device_width": 360,
         "px_per_in": 280,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Motorola Droid Razr",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.3,
         "physical_size_cm": 11,
         "width": 540,
@@ -594,12 +594,12 @@
         "device_width": 360,
         "px_per_in": 256,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Motorola Droid Razr Maxx",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.3,
         "physical_size_cm": 11,
         "width": 540,
@@ -607,12 +607,12 @@
         "device_width": 360,
         "px_per_in": 256,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Motorola Moto X Style",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.7,
         "physical_size_cm": 14.5,
         "width": 1440,
@@ -620,12 +620,12 @@
         "device_width": 1440,
         "px_per_in": 520,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Motorola Nexus 6",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 6,
         "physical_size_cm": 15.2,
         "width": 1440,
@@ -633,12 +633,12 @@
         "device_width": 1440,
         "px_per_in": 493,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Motorola Droid Turbo",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.2,
         "physical_size_cm": 13.2,
         "width": 1440,
@@ -646,12 +646,12 @@
         "device_width": 1440,
         "px_per_in": 565,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "Motorola Moto G",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 720,
@@ -659,12 +659,12 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Motorola Moto E",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.3,
         "physical_size_cm": 10.9,
         "width": 540,
@@ -672,12 +672,12 @@
         "device_width": 540,
         "px_per_in": 256,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "OnePlus X",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 1080,
@@ -685,12 +685,12 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "OnePlus",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "OnePlus 2",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -698,12 +698,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "OnePlus",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "OnePlus One",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -711,12 +711,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "OnePlus",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Samsung Galaxy Nexus",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.6,
         "physical_size_cm": 11.8,
         "width": 720,
@@ -724,12 +724,12 @@
         "device_width": 360,
         "px_per_in": 316,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Galaxy Note II",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14.1,
         "width": 720,
@@ -737,12 +737,12 @@
         "device_width": 360,
         "px_per_in": 267,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Galaxy S Plus",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4,
         "physical_size_cm": 10,
         "width": 480,
@@ -750,12 +750,12 @@
         "device_width": 320,
         "px_per_in": 233,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Galaxy SII",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.3,
         "physical_size_cm": 10.8,
         "width": 480,
@@ -763,12 +763,12 @@
         "device_width": 320,
         "px_per_in": 219,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "Samsung Galaxy SIII",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.8,
         "physical_size_cm": 12,
         "width": 720,
@@ -776,12 +776,12 @@
         "device_width": 360,
         "px_per_in": 306,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Galaxy SIV",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 1080,
@@ -789,12 +789,12 @@
         "device_width": 360,
         "px_per_in": 441,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Samsung Nexus S",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4,
         "physical_size_cm": 10,
         "width": 480,
@@ -802,12 +802,12 @@
         "device_width": 320,
         "px_per_in": 235,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Z3",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 720,
@@ -815,12 +815,12 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Sony Xperia Z",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 1080,
@@ -828,12 +828,12 @@
         "device_width": 360,
         "px_per_in": 441,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Sony Xperia T2 Ultra Dual",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 6,
         "physical_size_cm": 15,
         "width": 720,
@@ -841,12 +841,12 @@
         "device_width": 720,
         "px_per_in": 245,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Sony Xperia C4 Dual",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -854,12 +854,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Sony Xperia M4",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 720,
@@ -867,12 +867,12 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Xiaomi Mi Note",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.7,
         "physical_size_cm": 14.5,
         "width": 1080,
@@ -880,12 +880,12 @@
         "device_width": 1080,
         "px_per_in": 386,
         "make": "Xiaomi",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Xiaomi Mi 4i",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12.7,
         "width": 1080,
@@ -893,12 +893,12 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Xiaomi",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Infocus M812i",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -906,12 +906,12 @@
         "device_width": 1080,
         "px_per_in": 400,
         "make": "Infocus",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "VIVO Y51L",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12,
         "width": 540,
@@ -919,12 +919,12 @@
         "device_width": 540,
         "px_per_in": 220,
         "make": "VIVO",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "Oppo A59",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 720,
@@ -932,12 +932,12 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Oppo",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Oppo F1 Plus",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -945,12 +945,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Oppo",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Oppo R9 Plus",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 6,
         "physical_size_cm": 15,
         "width": 1080,
@@ -958,12 +958,12 @@
         "device_width": 1080,
         "px_per_in": 367,
         "make": "Oppo",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Oppo R9",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -971,12 +971,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Oppo",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Oppo A53",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 720,
@@ -984,12 +984,12 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Oppo",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Panasonic Eluga I3",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 720,
@@ -997,12 +997,12 @@
         "device_width": 720,
         "px_per_in": 267,
         "make": "Panasonic",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Panasonic Eluga Arc",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.7,
         "physical_size_cm": 12,
         "width": 720,
@@ -1010,12 +1010,12 @@
         "device_width": 720,
         "px_per_in": 312,
         "make": "Panasonic",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Panasonic T50",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4.5,
         "physical_size_cm": 12,
         "width": 480,
@@ -1023,12 +1023,12 @@
         "device_width": 480,
         "px_per_in": 218,
         "make": "Panasonic",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "Philips Sapphire Life V787",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -1036,12 +1036,12 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Philips",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Philips Sapphire S616",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -1049,12 +1049,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Philips",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Panasonic T44",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 4,
         "physical_size_cm": 10,
         "width": 480,
@@ -1062,12 +1062,12 @@
         "device_width": 480,
         "px_per_in": 233,
         "make": "Panasonic",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Lenovo Vibe K4 Note",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -1075,12 +1075,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Lenovo",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Lenovo K3 Note",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -1088,12 +1088,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Lenovo",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Motorola Moto G4 Plus",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -1101,12 +1101,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Motorola Moto Z",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1440,
@@ -1114,12 +1114,12 @@
         "device_width": 1440,
         "px_per_in": 535,
         "make": "Motorola",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "Sony Xperia X",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12,
         "width": 1080,
@@ -1127,12 +1127,12 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Sony Xperia Z1",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12,
         "width": 1080,
@@ -1140,12 +1140,12 @@
         "device_width": 1080,
         "px_per_in": 441,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Sony Xperia E4 Dual",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 12,
         "width": 540,
@@ -1153,12 +1153,12 @@
         "device_width": 540,
         "px_per_in": 220,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "Xiaomi Redmi Note 3",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1080,
@@ -1166,12 +1166,12 @@
         "device_width": 1080,
         "px_per_in": 403,
         "make": "Xiaomi",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Sony Xperia Z3 Plus",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.2,
         "physical_size_cm": 13,
         "width": 1080,
@@ -1179,12 +1179,12 @@
         "device_width": 1080,
         "px_per_in": 424,
         "make": "Sony",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "BlackBerry Q10",
-        "os": "BlackBerry",
+        "platform": "BlackBerry",
         "physical_size_inch": 3.1,
         "physical_size_cm": 7.9,
         "width": 720,
@@ -1192,12 +1192,12 @@
         "device_width": 360,
         "px_per_in": 330,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "BlackBerry Z10",
-        "os": "BlackBerry",
+        "platform": "BlackBerry",
         "physical_size_inch": 4.2,
         "physical_size_cm": 10.7,
         "width": 768,
@@ -1205,12 +1205,12 @@
         "device_width": 384,
         "px_per_in": 356,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "BlackBerry Z3",
-        "os": "BlackBerry",
+        "platform": "BlackBerry",
         "physical_size_inch": 5,
         "physical_size_cm": 12,
         "width": 540,
@@ -1218,12 +1218,12 @@
         "device_width": 540,
         "px_per_in": 220,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "BlackBerry Porsche Design P9982",
-        "os": "BlackBerry",
+        "platform": "BlackBerry",
         "physical_size_inch": 4.2,
         "physical_size_cm": 10,
         "width": 768,
@@ -1231,12 +1231,12 @@
         "device_width": 768,
         "px_per_in": 328,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "BlackBerry Leap",
-        "os": "BlackBerry",
+        "platform": "BlackBerry",
         "physical_size_inch": 5,
         "physical_size_cm": 12,
         "width": 720,
@@ -1244,12 +1244,12 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "BlackBerry Classic Non Camera",
-        "os": "BlackBerry",
+        "platform": "BlackBerry",
         "physical_size_inch": 3.5,
         "physical_size_cm": 9,
         "width": 720,
@@ -1257,12 +1257,12 @@
         "device_width": 720,
         "px_per_in": 291,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "BlackBerry Torch 9810",
-        "os": "BlackBerry",
+        "platform": "BlackBerry",
         "physical_size_inch": 3.2,
         "physical_size_cm": 8,
         "width": 360,
@@ -1270,12 +1270,12 @@
         "device_width": 360,
         "px_per_in": 188,
         "make": "BlackBerry",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "Apple iPhone 3GS",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 3.5,
         "physical_size_cm": 8.9,
         "width": 320,
@@ -1283,12 +1283,12 @@
         "device_width": 320,
         "px_per_in": 163,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "Apple iPhone 6",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 4.7,
         "physical_size_cm": 11.9,
         "width": 750,
@@ -1296,12 +1296,12 @@
         "device_width": 750,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iPhone 7",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 4.7,
         "physical_size_cm": 11.5,
         "width": 750,
@@ -1309,12 +1309,12 @@
         "device_width": 750,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Nokia Lumia 1020",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 4.5,
         "physical_size_cm": 11,
         "width": 768,
@@ -1322,12 +1322,12 @@
         "device_width": 384,
         "px_per_in": 332,
         "make": "Nokia",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Nokia Lumia 520",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 4,
         "physical_size_cm": 10,
         "width": 480,
@@ -1335,12 +1335,12 @@
         "device_width": 320,
         "px_per_in": 233,
         "make": "Nokia",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Nokia Lumia 620",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 3.8,
         "physical_size_cm": 9.7,
         "width": 480,
@@ -1348,12 +1348,12 @@
         "device_width": 320,
         "px_per_in": 246,
         "make": "Nokia",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Nokia Lumia 720",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 4.3,
         "physical_size_cm": 10.9,
         "width": 480,
@@ -1361,12 +1361,12 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "Nokia",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "Nokia Lumia 900",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 4.3,
         "physical_size_cm": 11,
         "width": 480,
@@ -1374,12 +1374,12 @@
         "device_width": 320,
         "px_per_in": 217,
         "make": "Nokia",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 1
     },
     {
         "name": "Nokia Lumia 920",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 4.5,
         "physical_size_cm": 11,
         "width": 768,
@@ -1387,12 +1387,12 @@
         "device_width": 384,
         "px_per_in": 332,
         "make": "Nokia",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Nokia Lumia 925",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 4.5,
         "physical_size_cm": 11,
         "width": 768,
@@ -1400,12 +1400,12 @@
         "device_width": 384,
         "px_per_in": 332,
         "make": "Nokia",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Microsoft Lumia 950",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 5.2,
         "physical_size_cm": 13.2,
         "width": 1440,
@@ -1413,12 +1413,12 @@
         "device_width": 1440,
         "px_per_in": 564,
         "make": "Microsoft",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "Panasonic Toughpad FZ-F1",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 4.7,
         "physical_size_cm": 12,
         "width": 720,
@@ -1426,12 +1426,12 @@
         "device_width": 720,
         "px_per_in": 312,
         "make": "Panasonic",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Huawei Nexus 6p",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.7,
         "physical_size_cm": 14.5,
         "width": 1440,
@@ -1439,12 +1439,12 @@
         "device_width": 1440,
         "px_per_in": 518,
         "make": "Huawei",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Samsung Galaxy SV",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.1,
         "physical_size_cm": 12.9,
         "width": 1080,
@@ -1452,12 +1452,12 @@
         "device_width": 1080,
         "px_per_in": 432,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Google Pixel XL",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 14,
         "width": 1440,
@@ -1465,12 +1465,12 @@
         "device_width": 1440,
         "px_per_in": 534,
         "make": "Google",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "Samsung Galaxy S8",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.8,
         "physical_size_cm": 14.7,
         "width": 1440,
@@ -1478,12 +1478,12 @@
         "device_width": 1440,
         "px_per_in": 570,
         "make": "Samsung",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 4
     },
     {
         "name": "Apple iPhone 8",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 4.7,
         "physical_size_cm": 11.9,
         "width": 750,
@@ -1491,12 +1491,12 @@
         "device_width": 750,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iPhone X",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 5.8,
         "physical_size_cm": 14.7,
         "width": 1125,
@@ -1504,12 +1504,12 @@
         "device_width": 1125,
         "px_per_in": 463,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Apple iPhone XR",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 6.1,
         "physical_size_cm": 15.5,
         "width": 828,
@@ -1517,12 +1517,12 @@
         "device_width": 828,
         "px_per_in": 326,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iPhone XS",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 5.8,
         "physical_size_cm": 14.7,
         "width": 1125,
@@ -1530,12 +1530,12 @@
         "device_width": 1125,
         "px_per_in": 458,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Apple iPhone XS Max",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 6.5,
         "physical_size_cm": 16.5,
         "width": 1242,
@@ -1543,12 +1543,12 @@
         "device_width": 1242,
         "px_per_in": 458,
         "make": "Apple",
-        "type": "phone",
+        "type": "Phone",
         "pixel_ratio": 3
     },
     {
         "name": "Apple iPad Pro",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 12.9,
         "physical_size_cm": 32.8,
         "width": 2048,
@@ -1556,12 +1556,12 @@
         "device_width": 2048,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iPad Mini",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 7.9,
         "physical_size_cm": 20,
         "width": 768,
@@ -1569,12 +1569,12 @@
         "device_width": 768,
         "px_per_in": 163,
         "make": "Apple",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Apple iPad Air 2",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 9.7,
         "physical_size_cm": 24.4,
         "width": 2048,
@@ -1582,12 +1582,12 @@
         "device_width": 2048,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iPad Air",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 9.7,
         "physical_size_cm": 24.4,
         "width": 1536,
@@ -1595,12 +1595,12 @@
         "device_width": 1536,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iPad Mini 4",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 7.9,
         "physical_size_cm": 20.1,
         "width": 1536,
@@ -1608,12 +1608,12 @@
         "device_width": 1536,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iPad Mini 2",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 7.9,
         "physical_size_cm": 20.1,
         "width": 1536,
@@ -1621,12 +1621,12 @@
         "device_width": 1536,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Microsoft Surface Pro (2017)",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 12.5,
         "physical_size_cm": 31.8,
         "width": 1824,
@@ -1634,12 +1634,12 @@
         "device_width": 1824,
         "px_per_in": 263,
         "make": "Microsoft",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Huawei Mat",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 6,
         "physical_size_cm": 15.2,
         "width": 1080,
@@ -1647,12 +1647,12 @@
         "device_width": 1080,
         "px_per_in": 368,
         "make": "Huawei",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Samsung Galaxy Tab S2",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 9.7,
         "physical_size_cm": 24.4,
         "width": 1536,
@@ -1660,12 +1660,12 @@
         "device_width": 1536,
         "px_per_in": 264,
         "make": "Samsung",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Amazon Fire",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 17.8,
         "width": 600,
@@ -1673,12 +1673,12 @@
         "device_width": 600,
         "px_per_in": 171,
         "make": "Amazon",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Microsoft Surface Pro 4",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 12.3,
         "physical_size_cm": 31.2,
         "width": 1824,
@@ -1686,12 +1686,12 @@
         "device_width": 1824,
         "px_per_in": 267,
         "make": "Microsoft",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Asus Transformer",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 26,
         "width": 1200,
@@ -1699,12 +1699,12 @@
         "device_width": 800,
         "px_per_in": 224,
         "make": "Asus",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Samsung Galaxy Tab 2",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7.7,
         "physical_size_cm": 20,
         "width": 600,
@@ -1712,12 +1712,12 @@
         "device_width": 600,
         "px_per_in": 170,
         "make": "Samsung",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Samsung Galaxy Tab 2 10.1",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 26,
         "width": 800,
@@ -1725,12 +1725,12 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Samsung",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Amazon Fire HD 8",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 8,
         "physical_size_cm": 20.3,
         "width": 800,
@@ -1738,12 +1738,12 @@
         "device_width": 800,
         "px_per_in": 189,
         "make": "Amazon",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Amazon Fire HD 10",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10,
         "physical_size_cm": 25.4,
         "width": 800,
@@ -1751,12 +1751,12 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Amazon",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Sony Xperia Z4",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 25.7,
         "width": 1600,
@@ -1764,12 +1764,12 @@
         "device_width": 1600,
         "px_per_in": 299,
         "make": "Sony",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Microsoft Surface Pro 3",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 12,
         "physical_size_cm": 30.5,
         "width": 1440,
@@ -1777,12 +1777,12 @@
         "device_width": 1440,
         "px_per_in": 216,
         "make": "Microsoft",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Google Pixel C",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.2,
         "physical_size_cm": 25,
         "width": 1200,
@@ -1790,12 +1790,12 @@
         "device_width": 1200,
         "px_per_in": 307,
         "make": "Google",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Acer Iconia Tab A",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 26,
         "width": 800,
@@ -1803,12 +1803,12 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Acer",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Acer Picasso",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 11.6,
         "physical_size_cm": 29,
         "width": 768,
@@ -1816,12 +1816,12 @@
         "device_width": 768,
         "px_per_in": 190,
         "make": "Acer",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Ainol Novo 10 Hero",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10,
         "physical_size_cm": 25,
         "width": 800,
@@ -1829,12 +1829,12 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Ainol",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Ainol Novo 7 Crystal",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 18,
         "width": 600,
@@ -1842,12 +1842,12 @@
         "device_width": 600,
         "px_per_in": 169,
         "make": "Ainol",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Ainol Novo 9 Spark",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 9.7,
         "physical_size_cm": 25,
         "width": 2048,
@@ -1855,12 +1855,12 @@
         "device_width": 1024,
         "px_per_in": 264,
         "make": "Ainol",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Amazon Kindle Fire 1st Gen",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 18,
         "width": 600,
@@ -1868,12 +1868,12 @@
         "device_width": 600,
         "px_per_in": 169,
         "make": "Amazon",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Amazon Kindle Fire HD 7",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 18,
         "width": 800,
@@ -1881,12 +1881,12 @@
         "device_width": 533,
         "px_per_in": 216,
         "make": "Amazon",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Amazon Kindle Fire HD 8.9",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 8.9,
         "physical_size_cm": 23,
         "width": 1200,
@@ -1894,12 +1894,12 @@
         "device_width": 800,
         "px_per_in": 254,
         "make": "Amazon",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Asus Zenfone 2 Laser ZE500KL",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5,
         "physical_size_cm": 13,
         "width": 720,
@@ -1907,12 +1907,12 @@
         "device_width": 720,
         "px_per_in": 294,
         "make": "Asus",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Asus Nexus 7 (2012)",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 18,
         "width": 800,
@@ -1920,12 +1920,12 @@
         "device_width": 603,
         "px_per_in": 216,
         "make": "Asus",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Asus Nexus 7 (2013)",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 18,
         "width": 1200,
@@ -1933,12 +1933,12 @@
         "device_width": 600,
         "px_per_in": 323,
         "make": "Asus",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Barnes & Noble Nook Tablet",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 18,
         "width": 600,
@@ -1946,12 +1946,12 @@
         "device_width": 600,
         "px_per_in": 171,
         "make": "Barnes & Noble",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "HP 7 Voice Tab",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 6.9,
         "physical_size_cm": 24,
         "width": 600,
@@ -1959,12 +1959,12 @@
         "device_width": 600,
         "px_per_in": 216,
         "make": "HP",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "HP 7 Plus Tablet",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 17.7,
         "width": 600,
@@ -1972,12 +1972,12 @@
         "device_width": 600,
         "px_per_in": 170,
         "make": "HP",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "HP Slate 8 Plus Tablet",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 8,
         "physical_size_cm": 20.3,
         "width": 800,
@@ -1985,12 +1985,12 @@
         "device_width": 800,
         "px_per_in": 216,
         "make": "HP",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Micromax Canvas 6",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 5.5,
         "physical_size_cm": 13.9,
         "width": 1080,
@@ -1998,12 +1998,12 @@
         "device_width": 1080,
         "px_per_in": 401,
         "make": "Micromax",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 3
     },
     {
         "name": "Samsung Galaxy Tab 10.1",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 25.7,
         "width": 800,
@@ -2011,12 +2011,12 @@
         "device_width": 533,
         "px_per_in": 149,
         "make": "Samsung",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Toshiba AT100",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 25.7,
         "width": 800,
@@ -2024,12 +2024,12 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Toshiba",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Toshiba Thrive",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 25.6,
         "width": 800,
@@ -2037,12 +2037,12 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Toshiba",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Toshiba Encore 2 Write",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 25.7,
         "width": 800,
@@ -2050,12 +2050,12 @@
         "device_width": 800,
         "px_per_in": 189,
         "make": "Toshiba",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Dell Venue",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 17.7,
         "width": 800,
@@ -2063,12 +2063,12 @@
         "device_width": 800,
         "px_per_in": 216,
         "make": "Dell",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "HP Slate 7",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 17.7,
         "width": 600,
@@ -2076,12 +2076,12 @@
         "device_width": 600,
         "px_per_in": 170,
         "make": "HP",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Toshiba Excite Go",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 17.7,
         "width": 600,
@@ -2089,12 +2089,12 @@
         "device_width": 600,
         "px_per_in": 170,
         "make": "Toshiba",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "HP Slate7 VoiceTab",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 17.7,
         "width": 800,
@@ -2102,12 +2102,12 @@
         "device_width": 800,
         "px_per_in": 294,
         "make": "HP",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "BlackBerry PlayBook",
-        "os": "BlackBerry",
+        "platform": "BlackBerry",
         "physical_size_inch": 7,
         "physical_size_cm": 18,
         "width": 600,
@@ -2115,12 +2115,12 @@
         "device_width": 600,
         "px_per_in": 169,
         "make": "BlackBerry",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Apple iPad 1 & 2",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 9.7,
         "physical_size_cm": 25,
         "width": 768,
@@ -2128,12 +2128,12 @@
         "device_width": 768,
         "px_per_in": 132,
         "make": "Apple",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Apple iPad 3 & 4",
-        "os": "iOS",
+        "platform": "iOS",
         "physical_size_inch": 9.7,
         "physical_size_cm": 25,
         "width": 1536,
@@ -2141,12 +2141,12 @@
         "device_width": 768,
         "px_per_in": 264,
         "make": "Apple",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "FUJITSU LIFEBOOK U745",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 14,
         "physical_size_cm": 35.6,
         "width": 900,
@@ -2154,12 +2154,12 @@
         "device_width": 900,
         "px_per_in": 300,
         "make": "FUJITSU",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "FUJITSU STYLISTIC Q665",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 11.6,
         "physical_size_cm": 29.5,
         "width": 1080,
@@ -2167,12 +2167,12 @@
         "device_width": 720,
         "px_per_in": 190,
         "make": "FUJITSU",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "FUJITSU STYLISTIC Q736",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 13.3,
         "physical_size_cm": 33.8,
         "width": 1080,
@@ -2180,12 +2180,12 @@
         "device_width": 540,
         "px_per_in": 165,
         "make": "FUJITSU",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Acer Switch 10 E",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 25.7,
         "width": 800,
@@ -2193,12 +2193,12 @@
         "device_width": 800,
         "px_per_in": 154,
         "make": "Acer",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Amazon Fire HD 6",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 6,
         "physical_size_cm": 15.2,
         "width": 800,
@@ -2206,12 +2206,12 @@
         "device_width": 800,
         "px_per_in": 252,
         "make": "Amazon",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Asus ZenPad 8.0",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 8,
         "physical_size_cm": 20.3,
         "width": 800,
@@ -2219,12 +2219,12 @@
         "device_width": 800,
         "px_per_in": 189,
         "make": "Asus",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Asus Nexus 7",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 7,
         "physical_size_cm": 17.8,
         "width": 800,
@@ -2232,12 +2232,12 @@
         "device_width": 800,
         "px_per_in": 323,
         "make": "Asus",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "HTC Nexus 9",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 8.9,
         "physical_size_cm": 22.6,
         "width": 1536,
@@ -2245,12 +2245,12 @@
         "device_width": 1536,
         "px_per_in": 288,
         "make": "HTC",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Lenovo Yoga 10 HD+",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 10.1,
         "physical_size_cm": 25.7,
         "width": 1200,
@@ -2258,12 +2258,12 @@
         "device_width": 1200,
         "px_per_in": 224,
         "make": "Lenovo",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Samsung Galaxy Note Pro 12.2",
-        "os": "Android",
+        "platform": "Android",
         "physical_size_inch": 12.2,
         "physical_size_cm": 31,
         "width": 1600,
@@ -2271,12 +2271,12 @@
         "device_width": 1600,
         "px_per_in": 247,
         "make": "Samsung",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 2
     },
     {
         "name": "Dell Venue 10",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 10.1,
         "physical_size_cm": 25.7,
         "width": 800,
@@ -2284,12 +2284,12 @@
         "device_width": 800,
         "px_per_in": 149,
         "make": "Dell",
-        "type": "tablet",
+        "type": "Tablet",
         "pixel_ratio": 1
     },
     {
         "name": "Dell XPS 13",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 13.3,
         "physical_size_cm": 33.8,
         "width": 1920,
@@ -2297,12 +2297,12 @@
         "device_width": 1080,
         "px_per_in": 276,
         "make": "Dell",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 2
     },
     {
         "name": "Apple MacBook 12-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 12,
         "physical_size_cm": 30.5,
         "width": 2304,
@@ -2310,12 +2310,12 @@
         "device_width": 2304,
         "px_per_in": 226,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 2
     },
     {
         "name": "Acer Chromebook",
-        "os": "Chrome",
+        "platform": "Chrome",
         "physical_size_inch": 11.6,
         "physical_size_cm": 29,
         "width": 1366,
@@ -2323,12 +2323,12 @@
         "device_width": 1366,
         "px_per_in": 135,
         "make": "Acer",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Samsung Chromebook",
-        "os": "Chrome",
+        "platform": "Chrome",
         "physical_size_inch": 11.6,
         "physical_size_cm": 29,
         "width": 1366,
@@ -2336,12 +2336,12 @@
         "device_width": 1366,
         "px_per_in": 135,
         "make": "Samsung",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple MacBook Pro 13-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 13.3,
         "physical_size_cm": 33.8,
         "width": 2560,
@@ -2349,12 +2349,12 @@
         "device_width": 2560,
         "px_per_in": 227,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 2
     },
     {
         "name": "Microsoft Surface Book",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 13.5,
         "physical_size_cm": 34.3,
         "width": 3000,
@@ -2362,12 +2362,12 @@
         "device_width": 3000,
         "px_per_in": 267,
         "make": "Microsoft",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 2
     },
     {
         "name": "Apple MacBook Air 13-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 13.3,
         "physical_size_cm": 33.8,
         "width": 1440,
@@ -2375,12 +2375,12 @@
         "device_width": 1440,
         "px_per_in": 128,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple MacBook Pro 15-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 15.4,
         "physical_size_cm": 39.1,
         "width": 2880,
@@ -2388,12 +2388,12 @@
         "device_width": 2880,
         "px_per_in": 220,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple iMac 27-inch (Retina 5K Display)",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 27,
         "physical_size_cm": 68.6,
         "width": 5120,
@@ -2401,12 +2401,12 @@
         "device_width": 5120,
         "px_per_in": 218,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple MacBook Air 11-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 11.6,
         "physical_size_cm": 29.5,
         "width": 1366,
@@ -2414,12 +2414,12 @@
         "device_width": 1366,
         "px_per_in": 135,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Asus Chrombook Flip",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 10.1,
         "physical_size_cm": 25.7,
         "width": 1280,
@@ -2427,12 +2427,12 @@
         "device_width": 1280,
         "px_per_in": 150,
         "make": "Asus",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Lenovo Thinkpad X230",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 12.5,
         "physical_size_cm": 32,
         "width": 1366,
@@ -2440,12 +2440,12 @@
         "device_width": 1366,
         "px_per_in": 125,
         "make": "Lenovo",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Asus ZenBook UX305",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 13.3,
         "physical_size_cm": 33.8,
         "width": 1920,
@@ -2453,12 +2453,12 @@
         "device_width": 1920,
         "px_per_in": 276,
         "make": "Asus",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 2
     },
     {
         "name": "Dell Inspiron 15 5000 Series",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 15.6,
         "physical_size_cm": 39.6,
         "width": 1366,
@@ -2466,12 +2466,12 @@
         "device_width": 1366,
         "px_per_in": 100,
         "make": "Dell",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Google Chromebook Pixel",
-        "os": "Chrome",
+        "platform": "Chrome",
         "physical_size_inch": 12.9,
         "physical_size_cm": 33,
         "width": 2560,
@@ -2479,12 +2479,12 @@
         "device_width": 1280,
         "px_per_in": 239,
         "make": "Google",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 2
     },
     {
         "name": "Apple MacBook Pro 17-inch (Mid/Late 2007 - Late 2011)",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 17.3,
         "physical_size_cm": 44,
         "width": 1920,
@@ -2492,12 +2492,12 @@
         "device_width": 1920,
         "px_per_in": 131,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Asus PB287Q",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 28,
         "physical_size_cm": 71.1,
         "width": 3840,
@@ -2505,12 +2505,12 @@
         "device_width": 3840,
         "px_per_in": 157,
         "make": "Asus",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple Cinema Display 30",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 30,
         "physical_size_cm": 76,
         "width": 2560,
@@ -2518,12 +2518,12 @@
         "device_width": 2560,
         "px_per_in": 100,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple Thunderbolt Display 27",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 27,
         "physical_size_cm": 69,
         "width": 2560,
@@ -2531,12 +2531,12 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple iMac 21.5-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 21.5,
         "physical_size_cm": 55,
         "width": 1921,
@@ -2544,12 +2544,12 @@
         "device_width": 1921,
         "px_per_in": 102,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple iMac 27-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 27,
         "physical_size_cm": 69,
         "width": 2560,
@@ -2557,12 +2557,12 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple MacBook Air 11-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 11.6,
         "physical_size_cm": 29,
         "width": 1366,
@@ -2570,12 +2570,12 @@
         "device_width": 1366,
         "px_per_in": 135,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple MacBook Air 13-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 13.3,
         "physical_size_cm": 34,
         "width": 1440,
@@ -2583,12 +2583,12 @@
         "device_width": 1440,
         "px_per_in": 128,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple MacBook Pro 13-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 13.3,
         "physical_size_cm": 34,
         "width": 1280,
@@ -2596,12 +2596,12 @@
         "device_width": 1280,
         "px_per_in": 113,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple MacBook Pro 13-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 13.3,
         "physical_size_cm": 34,
         "width": 2560,
@@ -2609,12 +2609,12 @@
         "device_width": 1280,
         "px_per_in": 227,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 2
     },
     {
         "name": "Apple MacBook Pro 15-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 15.4,
         "physical_size_cm": 39,
         "width": 1440,
@@ -2622,12 +2622,12 @@
         "device_width": 1440,
         "px_per_in": 110,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple MacBook Pro 15-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 15.4,
         "physical_size_cm": 39,
         "width": 1680,
@@ -2635,12 +2635,12 @@
         "device_width": 1680,
         "px_per_in": 128,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Apple MacBook Pro 15-inch",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 15.4,
         "physical_size_cm": 39,
         "width": 2880,
@@ -2648,12 +2648,12 @@
         "device_width": 1440,
         "px_per_in": 220,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Panasonic BT-LH2170",
-        "os": "SDI",
+        "platform": "SDI",
         "physical_size_inch": 21.5,
         "physical_size_cm": 546.1,
         "width": 1080,
@@ -2661,12 +2661,12 @@
         "device_width": 1080,
         "px_per_in": 149,
         "make": "Panasonic",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Panasonic BT-LH910GJ",
-        "os": "SDI",
+        "platform": "SDI",
         "physical_size_inch": 9,
         "physical_size_cm": 22.9,
         "width": 768,
@@ -2674,12 +2674,12 @@
         "device_width": 768,
         "px_per_in": 96,
         "make": "Panasonic",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Panasonic BT-4LH310P",
-        "os": "SDI",
+        "platform": "SDI",
         "physical_size_inch": 31,
         "physical_size_cm": 78.7,
         "width": 2160,
@@ -2687,12 +2687,12 @@
         "device_width": 2160,
         "px_per_in": 149,
         "make": "Panasonic",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Panasonic BT-LH1850",
-        "os": "SDI",
+        "platform": "SDI",
         "physical_size_inch": 18.5,
         "physical_size_cm": 47,
         "width": 768,
@@ -2700,12 +2700,12 @@
         "device_width": 768,
         "px_per_in": 96,
         "make": "Panasonic",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Asus K55N-DS81 15.6 in",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 15.6,
         "physical_size_cm": 40,
         "width": 1366,
@@ -2713,12 +2713,12 @@
         "device_width": 1366,
         "px_per_in": 100,
         "make": "Asus",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Dell Inspiron 14 series 36",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 14.1,
         "physical_size_cm": 36,
         "width": 1600,
@@ -2726,12 +2726,12 @@
         "device_width": 1600,
         "px_per_in": 130,
         "make": "Dell",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Dell S2340M 23",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 23,
         "physical_size_cm": 58,
         "width": 1920,
@@ -2739,12 +2739,12 @@
         "device_width": 1920,
         "px_per_in": 96,
         "make": "Dell",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Dell U2713HM 27",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 27,
         "physical_size_cm": 69,
         "width": 2560,
@@ -2752,12 +2752,12 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "Dell",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Dell UltraSharp U2412M 24",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 24,
         "physical_size_cm": 61,
         "width": 1920,
@@ -2765,12 +2765,12 @@
         "device_width": 1920,
         "px_per_in": 94,
         "make": "Dell",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Dell UltraSharp U2711 27",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 27,
         "physical_size_cm": 69,
         "width": 2560,
@@ -2778,12 +2778,12 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "Dell",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Dell UltraSharp U3011 30",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 30,
         "physical_size_cm": 76,
         "width": 2560,
@@ -2791,12 +2791,12 @@
         "device_width": 2560,
         "px_per_in": 100,
         "make": "Dell",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Dell UltraSharp UZ2315H",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 23,
         "physical_size_cm": 58.4,
         "width": 1920,
@@ -2804,12 +2804,12 @@
         "device_width": 1920,
         "px_per_in": 96,
         "make": "Dell",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "HP Pavilion G6-2235us 15.6 Laptop (2...",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 15.6,
         "physical_size_cm": 40,
         "width": 1366,
@@ -2817,12 +2817,12 @@
         "device_width": 1366,
         "px_per_in": 100,
         "make": "HP",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "HP Dreamcolor Z27x",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 27,
         "physical_size_cm": 68.6,
         "width": 2560,
@@ -2830,12 +2830,12 @@
         "device_width": 2560,
         "px_per_in": 109,
         "make": "HP",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Panasonic BT-4LH310\n 4K LCD Monitor",
-        "os": "",
+        "platform": "",
         "physical_size_inch": 10,
         "physical_size_cm": 25.4,
         "width": 2160,
@@ -2843,12 +2843,12 @@
         "device_width": 2160,
         "px_per_in": 441,
         "make": "Panasonic",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 3
     },
     {
         "name": "Panasonic BT-LH910\n LCD Video Monitor",
-        "os": "",
+        "platform": "",
         "physical_size_inch": 9,
         "physical_size_cm": 23,
         "width": 768,
@@ -2856,12 +2856,12 @@
         "device_width": 768,
         "px_per_in": 320,
         "make": "Panasonic",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 2
     },
     {
         "name": "Apple iMac 21.5-inch (Retina 4K Display)",
-        "os": "OS X",
+        "platform": "OS X",
         "physical_size_inch": 21.5,
         "physical_size_cm": 54.6,
         "width": 4096,
@@ -2869,12 +2869,12 @@
         "device_width": 4096,
         "px_per_in": 219,
         "make": "Apple",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Acer S277HK",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 27,
         "physical_size_cm": 68.6,
         "width": 3840,
@@ -2882,12 +2882,12 @@
         "device_width": 3840,
         "px_per_in": 163,
         "make": "Acer",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "Asus ROG G751JL-BSI7T28",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 17.3,
         "physical_size_cm": 43.9,
         "width": 1920,
@@ -2895,12 +2895,12 @@
         "device_width": 1920,
         "px_per_in": 127,
         "make": "Asus",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     },
     {
         "name": "ViewSonic VX2452mh",
-        "os": "Windows",
+        "platform": "Windows",
         "physical_size_inch": 24,
         "physical_size_cm": 61,
         "width": 1920,
@@ -2908,7 +2908,7 @@
         "device_width": 1920,
         "px_per_in": 94,
         "make": "ViewSonic",
-        "type": "monitor",
+        "type": "Monitor",
         "pixel_ratio": 1
     }
 ]

@@ -2,17 +2,24 @@
 
 $filterButtonFontSize: 0.7rem;
 
-.PlatformFilter__list {
+.FilterEntity__list {
     @extend %flexCenterVertically;
     flex-wrap: wrap;
     padding: 0;
     margin-bottom: $smallMargin;
 }
 
-.PlatformFilter__listItem {
+.FilterEntity__listItem {
     list-style: none;
     padding: 0 $smallPadding $smallPadding 0;
-    .Button {
+
+    &--selected {
+        .FilterEntity__button {
+            background: $secondaryColorActive;
+        }
+    }
+
+    .FilterEntity__button {
         font-size: $filterButtonFontSize;
         padding: ($smallPadding / 2) $smallPadding;
     }

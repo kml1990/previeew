@@ -1,12 +1,12 @@
 import { Make } from '../Make';
-import OS from '../OS';
 import { DeviceType } from '../domain/Device';
+import Platform from '../Platform';
 
 export interface DeviceDTO {
     name: string;
     type: DeviceType;
     make: Make;
-    os: OS;
+    platform: Platform;
     width: number;
     height: number;
     physical_size_inch: number;

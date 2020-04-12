@@ -1,5 +1,5 @@
 import { Make } from '../Make';
-import OS from '../OS';
+import Platform from '../Platform';
 
 export enum DeviceType {
     PHONE = 'phone',
@@ -11,7 +11,7 @@ export interface DeviceData {
     name: string;
     type: DeviceType;
     make: Make;
-    os: OS;
+    platform: Platform;
     width: number;
     height: number;
     physicalSizeInInch: number;
@@ -28,7 +28,7 @@ export default class Device {
 
     private readonly _make: Make;
 
-    private readonly _os: OS;
+    private readonly _platform: Platform;
 
     private readonly _width: number;
 
@@ -44,12 +44,14 @@ export default class Device {
 
     private readonly _pixelRatio: number;
 
+    private readonly _originalConfig: DeviceData;
+
     constructor(deviceData: DeviceData) {
         const {
             name,
             type,
             make,
-            os,
+            platform,
             width,
             height,
             physicalSizeInInch,
@@ -62,7 +64,7 @@ export default class Device {
         this._name = name;
         this._type = type;
         this._make = make;
-        this._os = os;
+        this._platform = platform;
         this._width = width;
         this._height = height;
         this._physicalSizeInInch = physicalSizeInInch;
@@ -70,6 +72,7 @@ export default class Device {
         this._deviceWidth = deviceWidth;
         this._pixelsPerInch = pixelsPerInch;
         this._pixelRatio = pixelRatio;
+        this._originalConfig = deviceData;
     }
 
     get name(): string {
@@ -84,8 +87,8 @@ export default class Device {
         return this._make;
     }
 
-    get os(): OS {
-        return this._os;
+    get platform(): Platform {
+        return this._platform;
     }
 
     get width(): number {
@@ -114,5 +117,10 @@ export default class Device {
 
     get pixelRatio(): number {
         return this._pixelRatio;
+    }
+
+    // TODO fix this type
+    getAsObject(): any {
+        return { ...this._originalConfig };
     }
 }

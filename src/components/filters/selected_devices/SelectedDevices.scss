@@ -17,9 +17,20 @@
         background-color: $primaryColor;
         border-radius: $commonBorderRadius;
         color: white;
+        cursor: pointer;
     }
     
     .SelectedDevices__multi-value__label {
         color: white,
+    }
+
+    .SelectedDevices__multi-value__remove {
+        border-top-right-radius: $commonBorderRadius;
+        border-bottom-right-radius: $commonBorderRadius;
+
+        &:hover {
+            background-color: $primaryColorHover;
+            color: $primaryColorActive;
+        }
     }
 }

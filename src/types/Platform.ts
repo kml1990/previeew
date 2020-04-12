@@ -1,4 +1,4 @@
-enum OS {
+enum Platform {
     IOS = 'iOS',
     OSX = 'OS X',
     CHROME = 'Chrome',
@@ -7,4 +7,4 @@ enum OS {
     BLACKBERRY = 'BlackBerry',
 }
 
-export default OS;
+export default Platform;

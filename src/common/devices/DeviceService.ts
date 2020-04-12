@@ -5,6 +5,7 @@ import dependenciesContainer from '../di/DependencyContainer';
 import { DeviceDTO } from '../../types/dto/DeviceDto';
 import Device, { DeviceType } from '../../types/domain/Device';
 import StringUtil from '../../utils/string/StringUtil';
+import { Filterable } from '../filter/FilterService';
 
 export type DeviceMap = Map<string, Device>;
 
@@ -67,6 +68,23 @@ export default class DeviceService {
         return Array.from(this._deviceMakes);
     }
 
+    getEntity(property: Filterable): string[] {
+        switch (property) {
+            case Filterable.TYPE: {
+                return this.getTypes();
+            }
+            case Filterable.PLATFORM: {
+                return this.getPlatforms();
+            }
+            case Filterable.MAKE: {
+                return this.getMakes();
+            }
+            default: {
+                return [];
+            }
+        }
+    }
+
     private getDefaultSelectedDevices(): Set<Device> {
         if (this._devices.size === 0) {
             this._devices = this.loadAllDevices();
@@ -81,9 +99,9 @@ export default class DeviceService {
     }
 
     private addFilters(device: Device) {
-        const { os, make } = device;
-        if (os) {
-            this._devicePlatforms.add(os);
+        const { platform, make } = device;
+        if (platform) {
+            this._devicePlatforms.add(platform);
         }
         if (make) {
             this._deviceMakes.add(make);

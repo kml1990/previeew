@@ -1,5 +1,5 @@
 import { Make } from './Make';
-import OS from './OS';
+import OS from './Platform';
 import { DeviceType } from './domain/Device';
 
 export interface Device {
