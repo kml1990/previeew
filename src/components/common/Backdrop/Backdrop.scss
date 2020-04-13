@@ -9,7 +9,7 @@
         display: block;
         background: $backdropColor;
         width: calc(100% - #{$sidebarWidth});
-        height: 100vh;
+        height: 100%;
     }
     &--hidden {
         display: none;

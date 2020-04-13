@@ -3,90 +3,59 @@ import _ from 'lodash';
 import DeviceService from '../../../common/devices/DeviceService';
 import { useInjection } from '../../../common/di/DependencyContext';
 import Device from '../../../types/domain/Device';
-import { Filterable } from '../../../common/filter/FilterService';
-import Filter from '../../../common/filter/Filter';
+import FilterService, { Filterable, Filters } from '../../../common/filter/FilterService';
 
-export type Filters = Map<Filterable, string[]>;
-export type AddFilterCallaback = (filterProperty: Filterable, filter: string) => void;
-export type UpdateSelectedCallaback = (selected: string[]) => void;
+export type AddFilterCallaback = (filterName: Filterable, filter: string) => void;
+export type UpdateSelectedDevicesCallaback = (selected: string[]) => void;
 
 export interface FilterContextProps {
     filteredDevices: Device[];
     selectedDevices: Device[];
     filters: Filters;
     addFilter: AddFilterCallaback;
-    updateSelected: UpdateSelectedCallaback;
+    updateSelectedDevices: UpdateSelectedDevicesCallaback;
 }
 
 export const FilterContext = createContext<FilterContextProps>({} as FilterContextProps);
 
 const FilterProvider: React.FC = ({ children }) => {
     const deviceService = useInjection(DeviceService);
+    const filterService = useInjection(FilterService);
+
     const [filters, setFilters] = useState<Filters>(new Map());
-    const [allDevices, setAllDevices] = useState<Device[]>([]);
+    const [devices, setDevices] = useState<Device[]>([]);
     const [filteredDevices, setFilteredDevices] = useState<Device[]>([]);
     const [selectedDevices, setSelectedDevices] = useState<Device[]>([]);
 
     useEffect(() => {
-        const devices = deviceService.getAllDevices();
-        setAllDevices(devices);
-        setFilteredDevices(devices);
+        const allDevices = deviceService.getAllDevices();
+        setDevices(allDevices);
+        setFilteredDevices(allDevices);
         setSelectedDevices(deviceService.getSelectedDevices());
     }, []);
-
-    console.log(allDevices)
 
     const applyFilters = () => {
         if (filters.size === 0) {
             return;
         }
 
-        const query = Filter.buildQuery(filters);
-        const filtered = Filter.filterDevices(allDevices, query);
-
-        setFilteredDevices(filtered);
+        setFilteredDevices(filterService.filterDevices(devices, filters));
     };
 
     useEffect(() => {
         applyFilters();
     }, [filters]);
 
-    const addNewFilter = (filterProperty: Filterable, filter: string) => {
-        const filtersCopy = _.cloneDeep(filters);
-        filtersCopy.set(filterProperty, [filter]);
-        setFilters(filtersCopy);
-    };
-
-    // TODO - needs improving move to filter service
-    const updateExistingFilter = (filterProperty: Filterable, filter: string) => {
-        const filtersCopy = _.cloneDeep(filters);
-        const filterValues = filtersCopy.get(filterProperty);
-        if (filterValues) {
-            if (!filterValues.includes(filter)) {
-                filtersCopy.set(filterProperty, [...filterValues, filter]);
-            } else {
-                const filterIndex = filterValues.indexOf(filter);
-                filterValues.splice(filterIndex, 1);
-                if (filterValues.length !== 0) {
-                    filtersCopy.set(filterProperty, [...filterValues]);
-                } else {
-                    filtersCopy.delete(filterProperty);
-                }
-            }
-            setFilters(filtersCopy);
-        }
-    };
-
-    const addFilter = (filterProperty: Filterable, filter: string) => {
-        if (!filters.has(filterProperty)) {
-            addNewFilter(filterProperty, filter);
+    const addFilter = (filterName: Filterable, filter: string) => {
+        if (!filters.has(filterName)) {
+            setFilters(filterService.addFilter(filters, filterName, filter));
             return;
         }
-        updateExistingFilter(filterProperty, filter);
+        setFilters(filterService.updateFilter(filters, filterName, filter));
     };
 
-    const updateSelected = (selectedOptions: string[]) => {
-        const selected = allDevices.filter((device: Device) => {
+    const updateSelectedDevices = (selectedOptions: string[]) => {
+        const selected = devices.filter((device: Device) => {
             return selectedOptions.includes(device.name);
         });
         setSelectedDevices(selected);
@@ -97,7 +66,7 @@ const FilterProvider: React.FC = ({ children }) => {
         selectedDevices,
         filters,
         addFilter,
-        updateSelected,
+        updateSelectedDevices,
     };
 
     return <FilterContext.Provider value={filterProviderValues}>{children}</FilterContext.Provider>;

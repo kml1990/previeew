@@ -16,7 +16,7 @@ export interface SelectedDevicesProps {
 }
 
 const SelectedDevices: React.FC<SelectedDevicesProps> = ({ className = '' }) => {
-    const { filteredDevices, selectedDevices, updateSelected } = useFilter();
+    const { filteredDevices, selectedDevices, updateSelectedDevices } = useFilter();
     const [filtered, setFiltered] = useState<DevicesAsSelectOption[]>([]);
     const [selected, setSelected] = useState<DevicesAsSelectOption[]>([]);
 
@@ -38,7 +38,7 @@ const SelectedDevices: React.FC<SelectedDevicesProps> = ({ className = '' }) => 
 
     const handleChange = (selectedOptions: any) => {
         setSelected(selectedOptions);
-        updateSelected(selectedOptions.map((option: DevicesAsSelectOption) => option.label));
+        updateSelectedDevices(selectedOptions.map((option: DevicesAsSelectOption) => option.label));
     };
 
     return (
