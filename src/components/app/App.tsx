@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import { Routes } from '../../common/routes/Routes';
 import SettingsProvider from '../common/context/SettingsContext';
 import Home from '../home/Home';
@@ -11,7 +11,7 @@ import './App.scss';
 const App: React.FC = () => {
     return (
         <div className="App">
-            <BrowserRouter>
+            <HashRouter basename="/">
                 <SettingsProvider>
                     <Header className="App__header" />
                     <Sidebar className="App__sidebar" />
@@ -21,7 +21,7 @@ const App: React.FC = () => {
                         </Switch>
                     </div>
                 </SettingsProvider>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 };
