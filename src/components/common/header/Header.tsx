@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Form } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -10,7 +10,6 @@ export interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ className }) => {
-
     return (
         <Navbar className={`Header ${className}`} bg="light" expand="lg">
             <Navbar.Brand href="#home">Previeew</Navbar.Brand>

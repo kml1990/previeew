@@ -1,9 +1,9 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
-import _ from 'lodash';
-import DeviceService from '../../../common/devices/DeviceService';
+import dependenciesContainer from '../../../common/di/DependencyContainer';
 import { useInjection } from '../../../common/di/DependencyContext';
-import Device from '../../../types/domain/Device';
 import FilterService, { Filterable, Filters } from '../../../common/filter/FilterService';
+import DeviceService from '../../../common/devices/DeviceService';
+import Device from '../../../types/domain/Device';
 
 export type AddFilterCallaback = (filterName: Filterable, filter: string) => void;
 export type UpdateSelectedDevicesCallaback = (selected: string[]) => void;
@@ -19,7 +19,7 @@ export interface FilterContextProps {
 export const FilterContext = createContext<FilterContextProps>({} as FilterContextProps);
 
 const FilterProvider: React.FC = ({ children }) => {
-    const deviceService = useInjection(DeviceService);
+    const deviceService = dependenciesContainer.get(DeviceService);
     const filterService = useInjection(FilterService);
 
     const [filters, setFilters] = useState<Filters>(new Map());
@@ -32,7 +32,7 @@ const FilterProvider: React.FC = ({ children }) => {
         setDevices(allDevices);
         setFilteredDevices(allDevices);
         setSelectedDevices(deviceService.getSelectedDevices());
-    }, []);
+    }, [deviceService]);
 
     const applyFilters = () => {
         if (filters.size === 0) {
@@ -44,14 +44,15 @@ const FilterProvider: React.FC = ({ children }) => {
 
     useEffect(() => {
         applyFilters();
+        // eslint-disable-next-line
     }, [filters]);
 
     const addFilter = (filterName: Filterable, filter: string) => {
         if (!filters.has(filterName)) {
-            setFilters(filterService.addFilter(filters, filterName, filter));
+            setFilters(filterService.addNewFilterType(filters, filterName, filter));
             return;
         }
-        setFilters(filterService.updateFilter(filters, filterName, filter));
+        setFilters(filterService.updateFilterType(filters, filterName, filter));
     };
 
     const updateSelectedDevices = (selectedOptions: string[]) => {

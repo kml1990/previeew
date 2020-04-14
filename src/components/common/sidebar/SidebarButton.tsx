@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import { OverlayTrigger, Popover } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
-import { useBackdrop } from '../context/BackdropContext';
+import useBackdrop from '../../../common/hooks/UseBackdrop';
 
 import './SidebarButton.scss';
 
@@ -28,10 +28,10 @@ const SidebarButton: React.FC<SidebarButtonProps> = ({
     icon,
     children,
 }) => {
-    const { toggleBackdropVisibility } = useBackdrop();
+    const [toggleBackdrop] = useBackdrop();
 
     const onClick = () => {
-        toggleBackdropVisibility();
+        toggleBackdrop();
     };
 
     const popover = (

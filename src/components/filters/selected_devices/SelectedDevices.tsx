@@ -34,7 +34,7 @@ const SelectedDevices: React.FC<SelectedDevicesProps> = ({ className = '' }) => 
     useEffect(() => {
         setFiltered(deviceAsOption(filteredDevices));
         setSelected(deviceAsOption(selectedDevices));
-    }, [filteredDevices]);
+    }, [filteredDevices, selectedDevices]);
 
     const handleChange = (selectedOptions: any) => {
         setSelected(selectedOptions);

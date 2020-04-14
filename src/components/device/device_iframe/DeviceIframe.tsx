@@ -19,7 +19,7 @@ const DeviceIframe: React.FC<DeviceIframeProps> = ({ name, orientation, height, 
         if (url !== searchUrl) {
             setSearchUrl(url);
         }
-    }, [url]);
+    }, [url, searchUrl]);
 
     const deviceObjectStyle = {
         height: orientation === Orientation.PORTRAIT ? height : width,

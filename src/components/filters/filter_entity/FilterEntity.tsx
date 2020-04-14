@@ -1,14 +1,13 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import DeviceService from '../../../common/devices/DeviceService';
+import { useInjection } from '../../../common/di/DependencyContext';
 import FilterSection from '../section/FilterSection';
 import Button, { ButtonVariant, ButtonType } from '../../common/button/Button';
-import { useInjection } from '../../../common/di/DependencyContext';
-import DeviceService from '../../../common/devices/DeviceService';
 import { useFilter } from '../../common/context/FilterContext';
 import { Filterable } from '../../../common/filter/FilterService';
 
 import './FilterEntity.scss';
-import { tagProperty } from 'inversify/dts/annotation/decorator_utils';
 
 export interface FilterEntityProps {
     property: Filterable;
@@ -22,15 +21,11 @@ const FilterEntity: React.FC<FilterEntityProps> = ({ property, className = '' })
 
     useEffect(() => {
         setEntity(deviceService.getEntity(property));
-    }, []);
+    }, [deviceService, property]);
 
     const onClick = (filter: string) => {
         addFilter(property, filter);
     };
-
-    // const onClick = useCallback((type: string) => {
-    //     addFilter(property, type);
-    // }, []);
 
     const isSelected = (filter: string) => {
         const filterProperty = filters.get(property);

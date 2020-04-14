@@ -15,11 +15,6 @@ const DEFAULT_SELECTED_DEVICES = [
     'Apple iPhone 8',
     'Samsung Galaxy S8',
     'Google Pixel XL',
-    // 'Apple iPad Pro',
-    // 'Apple iPad Air',
-    // 'Dell XPS 13',
-    // 'Apple MacBook Pro 13-inch',
-    // 'Dell U2713HM 27',
 ];
 
 @injectable()
@@ -39,10 +34,14 @@ export default class DeviceService {
         this._selectedDevices = new Set();
         this._devicePlatforms = new Set();
         this._deviceMakes = new Set();
+
         this._deviceUnmarshaller = dependenciesContainer.get(DeviceUnmarshaller);
     }
 
     getAllDevices(): Device[] {
+        if (this._devices.size === 0) {
+            this._devices = this.loadAllDevices();
+        }
         return Array.from(this._devices.values());
     }
 

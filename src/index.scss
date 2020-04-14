@@ -15,6 +15,21 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.Body--withBackdrop {
+  overflow: hidden;
+  height: 100%;
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: $sidebarWidth;
+    background: $backdropColor;
+    width: calc(100% - #{$sidebarWidth});
+    height: 1000%;
+  }
+}
+
 //==============================================================================
 // Overides
 //==============================================================================

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Routes } from '../../common/routes/Routes';
-import SettingsProvider from '../common/context/SettingsContext'
+import SettingsProvider from '../common/context/SettingsContext';
 import Home from '../home/Home';
 import Header from '../common/header/Header';
 import Sidebar from '../common/sidebar/Sidebar';
