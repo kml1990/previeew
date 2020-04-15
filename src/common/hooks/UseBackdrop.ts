@@ -11,11 +11,11 @@ const useBackdrop = () => {
         }
     }, [isVisible]);
 
-    const toggleBackdrop = () => {
-        setIsVisible(!isVisible);
+    const setBackdropVisible = (visibility: boolean) => {
+        setIsVisible(visibility);
     };
 
-    return [toggleBackdrop];
+    return { backdropVisible: isVisible, setBackdropVisible };
 };
 
 export default useBackdrop;
